@@ -2,7 +2,8 @@ const servicesData = [
       {
         id:1,
         img:'/assets/img/icon/2/yako-senior.png',
-        title:'Yako Assurance Obsèques',
+        title:'Prévoyance',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits de prévoyance.',
         service:'/assets/img/services/obseques.png',
         text :<> <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}><b style={{ color:'#2b6338' }}>YAKO Assurance Obsèques</b> engage <b style={{ color:'#2b6338' }}>YAKO AFRICA ASSURANCES VIE </b> à mettre 
                   à la disposition du bénéficiaire désigné un ensemble de prestations au décès d&apos;un assuré.
@@ -42,7 +43,8 @@ const servicesData = [
       {
         id:2,
         img:'/assets/img/icon/2/performa.png',
-        title:'Performa Assurance Vie Multi-supports',
+        title:'Retraite',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’assurance retraite.',
         service:'/assets/img/services/multisupport.png',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}><b style={{ color:'#2b6338' }}>PERFORMA Assurance Vie Multisupports </b>est  le premier contrat d&apos;assurance vie multisupports de la zone CIMA. Il a été créé en janvier 2012 par <b style={{ color:'#2b6338' }}>YAKO AFRICA ASSURANCES VIE.</b>
@@ -74,7 +76,8 @@ const servicesData = [
       {
         id:3,
         img:'/assets/img/icon/2/cadence-plus.png',
-        title:'Cadence',
+        title:'Obsèques',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’obsèques.',
         service:'/assets/img/services/cadence.jpg',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence </b>est un produit d'assurance vie multi-usage avec trois déclinaisons :
@@ -92,7 +95,8 @@ const servicesData = [
       {
         id:4,
         img:'/assets/img/icon/2/doihoo.png',
-        title:'Doihoo',
+        title:'Epargne',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’Epargne.',
         service:'/assets/img/services/doihoo.png',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}><b style={{ color:'#2b6338' }}>Doihoo </b>est un contrat permet au souscripteur de se constituer une épargne sur 8 ans et de bénéficier, s&apos;il est tiré au sort, d&apos;un capital égal à 20% de son capital souhaité au terme. Il a la possibilité d&apos;être tiré 5 fois durant la vie du contrat.
@@ -107,7 +111,8 @@ const servicesData = [
       {
         id:5,
         img:'/assets/img/icon/2/yako-senior.png',
-        title:'Yako Prévoyance',
+        title:'Education',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’Education.',
         service:'/assets/img/services/prevoyance.png',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}>C&apos;est une solution de Prévoyance Entreprise qui permet de compenser la perte de revenus due au décès ou à l'Invalidité Absolue et Définitive (IAD) de l'employé assuré.
@@ -124,7 +129,8 @@ const servicesData = [
       {
         id:6,
         img:'/assets/img/icon/2/performa.png',
-        title:' Yako Frais funéraires',
+        title:'Placement',
+        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits de Placement.',
         service:'/assets/img/services/obseques.png',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}>C'est une solution de Prévoyance Entreprise qui permet de compenser la perte de revenus due au décès ou à l'Invalidité Absolue et Définitive (IAD) de l'employé assuré.
@@ -141,7 +147,9 @@ const servicesData = [
       {
         id:7,
         img:'/assets/img/icon/2/cadence.png',
-        title:'Yako Pension',
+        title:'Prévoyance',
+        soustitle:'Entreprises',
+        desc:"Le plan de PREVOYANCE ENTREPRISES est un contrat de prévoyance collective qui permet aux  Entreprises d'apporter..." ,
         service:'/assets/img/services/pension.jpg',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}>Ce contrat permet aux entreprises 
@@ -153,7 +161,9 @@ const servicesData = [
       {
         id:8,
         img:'/assets/img/icon/2/ifc.png',
-        title:'Stratégie IFC',
+        title:'Santé',
+        soustitle:'Entreprises',
+        desc:"Le Plan de Couverture  SANTE ENTREPRISES de YAKO AFRICA est un plan de prévoyance qui couvre les salariés des  Entreprises...",
         service:'/assets/img/services/strategy.png',
         text :<> 
               <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}>Ce contrat permet à votre entreprise de disposer d&apos;un outil puissant de gestion d&apos;actifs et de risques géré par
@@ -164,9 +174,17 @@ const servicesData = [
       },
       {
         id:9,
-        img:'/assets/img/icon/2/benefits.jpg',
-        title:'Employée Benefits',
-        service:'/assets/img/services/benefits.jpg',
+        img:'/assets/img/icon/2/ifc.png',
+        title:'Yako Africa',
+        soustitle:'IFC',
+        desc:"Les Plans d'Epargne Salariaux EMPLOYEE BENEFIT permettent aux Entreprises  d'aider leurs salariés à se constituer un capital...",
+        service:'/assets/img/services/strategy.png',
+        text :<> 
+              <p className="services-text mb-25" style={{ fontSize:'20px', color:'black' }}>Ce contrat permet à votre entreprise de disposer d&apos;un outil puissant de gestion d&apos;actifs et de risques géré par
+              <b style={{ color:'#2b6338' }}> YAKO AFRICA ASSURANCES VIE </b>afin de gérer les Indemnités de Fin de Carrière de votre personnel. 
+              <br /> L&apos;externalisation des clients auprès de <b style={{ color:'#2b6338' }}>YAKO AFRICA ASSURANCES VIE </b>vous fait bénéficier d&apos;avantages fiscaux.
+              </p>
+          </>
       },
       {
         id:10,

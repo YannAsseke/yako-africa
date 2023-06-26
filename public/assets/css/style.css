@@ -1,3 +1,5 @@
+
+
 .text-primary{
   color : #5a8dee !important;
 }
@@ -122,4 +124,114 @@
 .col-sm-12.tppg-project .BlocText{
   width: 18%;
     min-width: 160px
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(243, 244, 246, 0.1),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+ max-width: 300px;
+  min-height: 250px;
+  background: #02b875;
+  padding: 30px;
+   border-radius: 3px;
+  box-sizing: border-box;
+  color: #f9b233;
+  margin:20px;
+   box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+.card-title{
+  color: #f9b233;
+  margin-top: 0;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.card-title-2{
+  color: #f9b233;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.card-title:hover{
+  color: #02b875;
+}
+
+.card-content{
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.card-btn{
+  all: unset;
+  display: block;
+  margin-left: auto;
+  border: 2px solid #f9b233;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.card-btn:hover{
+ color:#02b875;
+ border: 2px solid #02b875;
+ background: #FFF;
+}
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+.overlay{
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer{
+  
+  max-width: 500px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.closeBtn{
+  font-weight: 600;
+  color: red;
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  width: 30px;
+  background-color: #fff;
+  position: fixed;
+  top: -15px;
+  right:-15px;
 }

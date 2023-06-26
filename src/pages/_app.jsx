@@ -7,6 +7,7 @@ if (typeof window !== "undefined") {
 
 function MyApp({ Component, pageProps }) {
   return (
+    
     <ThemeProvider defaultTheme='light'>
       <AppProvider>
         <Component {...pageProps} />

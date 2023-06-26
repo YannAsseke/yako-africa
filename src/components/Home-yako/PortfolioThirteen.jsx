@@ -7,6 +7,7 @@ const portfolioItemBig = portfolioData.slice(140, 143)
 const PortfolioThirteen = () => {
   return (
     <>
+    
       <div className="tp-political-project">
         <div className="container-fluid" style={{ padding:"0" }}>
           <div className="row">

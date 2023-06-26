@@ -68,6 +68,7 @@ body {
 	color: var(--tp-text-body);
 	line-height: 26px;
 	background: inherit;
+	overflow-x: clip;
 }
 body:not(.modal-open) {
 	padding-right: 0px !important;

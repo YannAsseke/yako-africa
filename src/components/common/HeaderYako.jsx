@@ -42,21 +42,15 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/">
                              <a>Accueil</a>
                           </Link>
-                        {/*  <ul className="submenu">
-                            <li><Link href="/">Home Designer</Link></li>
-                            <li><Link href="/home-two">Home Agency</Link></li>
-                            <li><Link href="/home-three">Home Freelancer</Link></li>
-                            <li><Link href="/home-four">Home Corporate</Link></li>
-                            <li><Link href="/home-five">Home Studio</Link></li>
-                            <li><Link href="/home-six">Home Creative</Link></li>
-                            <li><Link href="/home-seven">Home Minimal</Link></li>
-                            <li><Link href="/home-eight">Home Minimal Full</Link></li>
-                            <li><Link href="/home-nine">Home Photographer</Link></li>
-                            <li><Link href="/home-ten">Home Photographer 2</Link></li>
-                            <li><Link href="/home-eleven">Home Photographer 3</Link></li>
-                            <li><Link href="/home-twelve">Home Photographer 4</Link></li>
-                            <li><Link href="/home-thirteen">Home Politician</Link></li>
-                          </ul>*/} 
+                        </li>
+                        <li>
+                          <Link href="/about">Qui sommes nous</Link>
+                        </li>
+                        <li>
+                          <Link href="/help-center">Réseau </Link>
+                        </li>
+                        <li>
+                          <Link href="/privacy-policy">Actualités </Link>
                         </li>
                         <li className="has-dropdown">
                           <Link href="/">
@@ -70,30 +64,11 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           </ul>
                         </li>
                         <li>
-                          <Link href="/help-center">Réseau </Link>
-                        </li>
-                        <li>
-                          <Link href="/">Actualités </Link>
-                        </li>
-                        <li className="has-dropdown">
-                          <Link href="/">
-                             <a>Services</a>
-                          </Link>
-                          <ul className="submenu">
-                            <li><Link href="https://laloyalevie.com/espace-client/login.php">
-                                  <a>
-                                    <img src="/assets/img/logo/ynov.png" alt="logo" style={{maxWidth : '30%'}}/>
-                                  </a>
-                                </Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
                           <Link href="/portfolio-three">Partenaires </Link>
                         </li>
-                        <li>
-                          <Link href="/about">Qui sommes nous</Link>
-                        </li>
+                        <li style={{ color:"#f9b233" }}>
+                            <Link href="https://laloyalevie.com/espace-client/login.php">Ynov</Link>
+                        </li>    
                         {/* <li>
                           <Link href="/about">Contacts </Link>
                         </li> */}
@@ -187,11 +162,11 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   !headerEight && <div className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-1">
                     <div className="tp-header-action">
                       <ul>
-                      {/*  <li className="d-none d-sm-inline-block">
+                       {/* <li className="d-none d-sm-inline-block">
                           <button onClick={() => setSearchOpen(true)} href="#" className="search">
                             <i className="fas fa-search"></i>
                           </button>
-                </li>*/} 
+                      </li>  */}
                         <li >
                           <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
                             <i className="fas fa-bars"></i>
