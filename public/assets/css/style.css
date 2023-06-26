@@ -211,7 +211,7 @@
 }
 
 .modalContainer{
-  max-width: 400px;
+  max-width: 380px;
   width: 80%;
   position: fixed;
   top: 50%;
@@ -231,7 +231,7 @@
   background-color: #fff;
   position: fixed;
   top: -15px;
-  right:-15px;
+  right: -15px;
 }
 
 .wrapper {
