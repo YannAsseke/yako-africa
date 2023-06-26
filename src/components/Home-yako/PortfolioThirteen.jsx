@@ -65,11 +65,11 @@ const PortfolioThirteen = () => {
                 <div class="BlocBandeauText">
                   <div class="BlocText">
                     <h2>
-                      <a href="" target="_blank" style={{ fontSize:"17px" }}>Connaître Yako Africa</a>
+                      <a href="/about"  style={{ fontSize:"17px" }}>Connaître Yako Africa</a>
                     </h2>
                     <p class="bodytext">&nbsp;</p>
                     <p class="bodytext">
-                      <a href="https://institutionnel.societegenerale.ci/" target="_blank">Fondation, RSE, recrutement...</a>
+                      <a href="/about">Fondation, RSE, recrutement...</a>
                     </p>
                   </div>
                 </div>

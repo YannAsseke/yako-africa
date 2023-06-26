@@ -211,7 +211,7 @@
 }
 
 .modalContainer{
-  
+  max-height:88%;
   max-width: 500px;
   width: 80%;
   position: fixed;
