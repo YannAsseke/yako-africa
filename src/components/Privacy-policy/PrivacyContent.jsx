@@ -166,83 +166,87 @@ const PrivacyContent = () => {
           </div>
         </div>
       </div> */}
-      <div class="container">
-  <div class="posts">
-    
-    <div class="posts__item posts__item--main">
-      <div class="posts__image">
-        <video class="min-w-full min-h-full absolute object-cover" src="/assets/video/laloyalevie4.mp4" type="video/mp4" autoplay muted loop></video>
-      </div>
-      <div class="posts__information">
-        <div class="posts__date">
-          November 28, 2015
+      {/* <div className='row' style={{ padding:"5px" }}>
+        <div className='col-9'>
+        <main className="wrapper">
+          <div className="lp">
+            <div className="lp__col lp__col-img" style={{backgroundImage:'url(/assets/img/modal/miss-ci.jpg)', backgroundSize:'cover',backgroundPosition:'top center',backgroundRepeat:'no-repeat'}}></div>
+            <div className="lp__col lp__col-txt">
+              <h1 className="lp__col__h1"><b>YAKO AFRICA Assurances vie</b> <span >SPONSOR OFFICEL DE MISS CI 2023</span></h1>
+              <p className="lp__col_bottomP">Chez Yako Africa Assurances vie, nous croyons en l'importance de soutenir les talents émergents et de créer des opportunités pour les jeunes femmes de briller.</p>
+              <p className="lp__col_bottomP">En investissant dans leur succès, nous souhaitons encourager la prise de risques, la créativité et l'ambition.</p>
+              <p className="lp__col_bottomP">Nous sommes fiers de contribuer à la réalisation des rêves et des aspirations de ces femmes exceptionnelles en renouvelant chaque année notre soutient au concours Miss Côte d'Ivoire.</p>
+              <p className="lp__col_bottomP">Ensemble, nous pouvons faire une différence significative dans la vie de ces jeunes femmes et inspirer d'autres à poursuivre leurs propres rêves.</p>
+            
+            </div>
+          </div>
+        </main>
         </div>
-        <div class="posts__title">
-          <a href="#">Fantastic Designs Of 2015 Concept Cars</a>
+        <div className='col-3'>
+          
         </div>
       </div>
+       */}
+
+<div className="wrapper">
+    <div className="item item-featured">
+        <div className="content">
+        <div className="lp">
+            <div className="lp__col lp__col-img" style={{backgroundImage:'url(/assets/img/modal/miss-ci.jpg)', backgroundSize:'cover',backgroundPosition:'top center',backgroundRepeat:'no-repeat'}}></div>
+            <div className="lp__col lp__col-txt">
+              <h1 className="lp__col__h1"><b>YAKO AFRICA Assurances vie</b> <span >SPONSOR OFFICEL DE MISS CI 2023</span></h1>
+              <p className="lp__col_bottomP">Chez Yako Africa Assurances vie, nous croyons en l'importance de soutenir les talents émergents et de créer des opportunités pour les jeunes femmes de briller.</p>
+              <p className="lp__col_bottomP">En investissant dans leur succès, nous souhaitons encourager la prise de risques, la créativité et l'ambition.</p>
+              <p className="lp__col_bottomP">Nous sommes fiers de contribuer à la réalisation des rêves et des aspirations de ces femmes exceptionnelles en renouvelant chaque année notre soutient au concours Miss Côte d'Ivoire.</p>
+              <p className="lp__col_bottomP">Ensemble, nous pouvons faire une différence significative dans la vie de ces jeunes femmes et inspirer d'autres à poursuivre leurs propres rêves.</p>
+            
+            </div>
+          </div>
+        </div>
     </div>
-    
-    <div class="posts__item">
-      <div class="posts__image">
-        <img src="https://images.unsplash.com/photo-1541654056076-0a252e083078?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0973edee71e034b2da232c4f4fe99cef&auto=format&fit=crop&w=500&q=60" alt="Post image" />
-      </div>
-      <div class="posts__information">
-        <div class="posts__date">
-          November 24, 2015
+    <div className="item">
+      <a className="image-wrapper" href="#"><img src="/assets/img/modal/sory_diomande.webp" /></a>
+        <div className="content"><a href="#">
+                <h5 className="title">Le marché africain des assurances, un des plus dynamiques au monde selon Sory DIOMANDE</h5>
+            </a>
+            <a href="http://africabusinessmag.com/wp/2022/06/09/le-marche-africain-des-assurances-est-lun-des-plus-dynamiques-au-monde-dixit-sory-diomande-directeur-pour-lafrique-du-nord-de-lest-et-de-louest-a-swiss-re/">En savoir plus</a>
         </div>
-        <div class="posts__title">
-          <a href="#">How To Find Design Inspiration In The Simple Things Around You</a>
-        </div>
-        
-      </div>
     </div>
-    
-    <div class="posts__item">
-      <div class="posts__image">
-        <img src="https://images.unsplash.com/photo-1541636752-a5ace3a8a2d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3d5ec3f81c8ab31d1e7b0809ad178a6&auto=format&fit=crop&w=500&q=60" alt="Post image" />
-      </div>
-      <div class="posts__information">
-        <div class="posts__date">
-          November 18, 2015
+    <div className="item"><a className="image-wrapper" href="#"><img src="/assets/img/modal/fanaf.png" /></a>
+        <div className="content"><a href="#">
+                <h5 className="title">Séminaire de Formation FANAF Du 13 Au 16 Juin 2023 à Abidjan</h5>
+            </a>
+            <a href="#">En savoir plus</a>
         </div>
-        <div class="posts__title">
-          <a href="#">The Only Guide To Choosing Website Photos You’ll Ever Need</a>
-        </div>
-        
-      </div>
     </div>
-    
-    <div class="posts__item">
-      <div class="posts__image">
-        <img src="https://images.unsplash.com/photo-1541618236-90386f48b9ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89485d218a2ffb816d895360eddd817d&auto=format&fit=crop&w=500&q=60" alt="Post image" />
-      </div>
-      <div class="posts__information">
-        <div class="posts__date">
-          November 08, 2015
+    {/* <div className="item"><a className="image-wrapper" href="#"><img src="/assets/img/modal/fanaf.png" /></a>
+        <div className="content"><a href="#">
+                <h3 className="title">Lorem ipsum dolor</h3>
+            </a>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nostrud exercitation ullamco laboris aliquip.</p><a href="#">Read more</a>
         </div>
-        <div class="posts__title">
-          <a href="#">Growth Hack Your Way to a Successful Freelance Career</a>
-        </div>
-        
-      </div>
     </div>
-    
-    <div class="posts__item">
-      <div class="posts__image">
-        <img src="https://images.unsplash.com/photo-1541473246607-0676be857916?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b85ddefa8f867ff9eaf62129d5f1f045&auto=format&fit=crop&w=500&q=60" alt="Post image" />
-      </div>
-      <div class="posts__information">
-        <div class="posts__date">
-          November 08, 2015
+    <div className="item"><a className="image-wrapper" href="#"><img src="https://unsplash.it/600/250/?image=23" /></a>
+        <div className="content"><a href="#">
+                <h3 className="title">Lorem ipsum dolor</h3>
+            </a>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nostrud exercitation ullamco laboris aliquip.</p><a href="#">Read more</a>
         </div>
-        <div class="posts__title">
-          <a href="#">Get 80% Off DSLR Photography Course Bundle</a>
-        </div>
-        
-      </div>
     </div>
-  </div>
+    <div className="item"><a className="image-wrapper" href="#"><img src="https://unsplash.it/600/250/?image=24" /></a>
+        <div className="content"><a href="#">
+                <h3 className="title">Lorem ipsum dolor</h3>
+            </a>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nostrud exercitation ullamco laboris aliquip.</p><a href="#">Read more</a>
+        </div>
+    </div>
+    <div className="item"><a className="image-wrapper" href="#"><img src="https://unsplash.it/600/250/?image=25" /></a>
+        <div className="content"><a href="#">
+                <h3 className="title">Lorem ipsum dolor</h3>
+            </a>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nostrud exercitation ullamco laboris aliquip.</p><a href="#">Read more</a>
+        </div>
+    </div> */}
 </div>
     </>
   );

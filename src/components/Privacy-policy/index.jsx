@@ -9,7 +9,7 @@ const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="PRIVACY & POLICY" subtitle="PRIVACY & POLICY" />
+      <Breadcrumb title="Actualités" subtitle="PRIVACY & POLICY" />
       <PrivacyContent/>
       <FooterTwo/>
     </>
