@@ -211,11 +211,10 @@
 }
 
 .modalContainer{
-  max-height:88%;
   max-width: 500px;
-  width: 80%;
+  height: 80%;
   position: fixed;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
