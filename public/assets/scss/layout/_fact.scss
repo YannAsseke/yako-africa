@@ -41,7 +41,6 @@
         line-height: 1.2;
         display: block;
         font-weight: var(--tp-fw-bold);
-        font-family: var(--tp-ff-heading);
         & i{
             font-size: 30px;
         }
@@ -51,7 +50,6 @@
     font-size: 16px;
     font-weight: var(--tp-fw-medium);
     color: var(--tp-heading-primary);
-    font-family: var(--tp-ff-heading);
     &:hover{
         color: var(--tp-theme-1);
     }

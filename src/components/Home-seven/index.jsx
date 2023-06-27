@@ -12,7 +12,6 @@ const index = () => {
     <>
       <HeaderYako/>
       <HeroAreaSeven/>
-      <ServiceContact />
       <FooterTwo/>
     </>
   );

@@ -53,7 +53,7 @@
             & a{
                 display: inline-block;
                 font-size: 13px;
-                color: var(--tp-common-black);
+                color: #2b6338;
                 padding: 40px 0;
                 font-weight: var(--tp-fw-bold);
                 text-transform: uppercase;
@@ -126,7 +126,7 @@
                     }
                     &:hover{
                         & > a{
-                            color: var(--tp-theme-1);
+                            color: #f9b233;
                             background-color: rgba(150,144,162,.06);
                             &::after{
                                 color: var(--tp-theme-1);
@@ -196,9 +196,9 @@
             }
             &:hover{
 				& > a{
-					color: var(--tp-theme-1);
+					color: #f9b233;
 					&::after{
-						color: var(--tp-theme-1);
+						color: #f9b233;
                         @include transform(translateY(-1px) rotate(45deg));
 					}
 				}
@@ -264,9 +264,9 @@
                 color: var(--tp-heading-primary);
                 transition: .3s;
                 &:hover{
-                    background: var(--tp-theme-1);
+                    background: #2b6338;
                     color: var(--tp-common-white);
-                    border-color: var(--tp-theme-1);
+                    border-color: #2b6338;
                 }
                 & i{
                     font-weight: 500;

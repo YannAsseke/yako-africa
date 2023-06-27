@@ -62,7 +62,6 @@
     typography css start 
 ---------------------------------*/
 body {
-	font-family: var(--tp-ff-body);
 	font-size: var(--tp-fz-body);
 	font-weight: normal;
 	color: var(--tp-text-body);
@@ -85,7 +84,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--tp-ff-heading);
 	color: var(--tp-heading-primary);
 	margin-top: 0px;
 	font-weight: var(--tp-fw-bold);
@@ -123,7 +121,6 @@ ul {
 }
 
 p {
-	font-family: var(--tp-ff-p);
 	font-size: 16px;
 	font-weight: var(--tp-fw-normal);
 	color: var(--tp-text-body);
@@ -252,7 +249,7 @@ input[type="color"] {
 	}
 }
 .img, img {
-	max-width: 100%;
+	max-width: 100px;
 	transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
   }
 

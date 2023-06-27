@@ -377,7 +377,6 @@
                         box-sizing: border-box;
                         content: '\f00c';
                         position: absolute;
-                        font-family: var(--tp-ff-fontawesome);
                         font-size: 10px;
                         color: var(--tp-common-white);
                         top: 46%;
@@ -408,10 +407,6 @@
     }
     &__info{
         &-inner{
-            padding: 45px 40px;
-            padding-right: 70px;
-            @include border-radius(4px);
-            @include box-shadow(0px 30px 50px 0px rgba(1, 11, 60, 0.1));
             position: relative;
             z-index: 1;
 

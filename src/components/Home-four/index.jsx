@@ -18,7 +18,6 @@ const HomeFourMain = () => {
     <>
       <HeaderYako/>
       <ServicesFour/> 
-      <ServiceContact />
       {/* <AboutFour/>
       <ServicesFour/>
       <VideoAreaFour/>

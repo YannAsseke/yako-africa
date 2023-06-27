@@ -902,7 +902,7 @@ const portfolioData = [
         id:'home-seven',
         img:'assets/img/project/5/bancassurance.png',
         col:'3',
-        title:'Bancassurance'
+        title:'Partenaires'
       },
       ,
       {

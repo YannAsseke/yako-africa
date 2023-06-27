@@ -4,6 +4,7 @@ import Particulier from "../../data/Produits";
 const ServicesList = () => {
   return (
     <>
+    
       <div className="services-list-area pt-50 pb-110" style={{ backgroundImage: "linear-gradient(to bottom, rgba(60, 60, 59, 0.6), rgba(43, 99, 56)), url('/assets/img/services/professionnel.jpg')", backgroundPosition: 'top top', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
       <h4 className="pb-80" style={{ textAlign: 'center', color:'white', fontSize:'50px', fontWeight:'bold' }}>Professionnels & Entreprises</h4>
       <div className="row">

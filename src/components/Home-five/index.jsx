@@ -18,7 +18,6 @@ const HomeFiveMain = () => {
     <>
       <HeaderYako/>
       <HeroAreaFive/>
-      <ServiceContact />
       {/* <AboutFive/>
       <ServicesFive/>
       <VideoAreaFive/>

@@ -5,7 +5,7 @@ const Modal = ({open, onClose}) => {
     return (
         <div className="overlay">
             <div className="modalContainer">
-                <img src="assets/img/modal/intro-yako.png" alt="project-img" style={{ backgroundSize:"cover", backgroundPosition: "center" }}/>
+                <img src="assets/img/modal/intro-yako.jpeg" alt="project-img" style={{ backgroundSize:"cover", backgroundPosition: "center" }}/>
                 <div className="ModalRight">
                     <p className="closeBtn" onClick={onClose}>X</p>
                 </div>

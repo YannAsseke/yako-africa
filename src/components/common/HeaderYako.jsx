@@ -17,7 +17,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
         <div className={`tp-header-area ${HeaderTwo && 'box-plr-85'} ${homeNine ? 'header-style-9' : ''}`}>
           <div className={`tp-header-area-inner ${HeaderTwo ? '' : 'inner-border'} 
           ${headerSticky && "header-sticky"} ${homeNine && 'header-transparent border-0'}`} id="header-sticky">
-            <div className={`${HeaderTwo ? 'container-fluid' : 'container'} p-relative`} style={{ margin : '0', maxWidth : '100%'}}>
+            <div className={`${HeaderTwo ? 'container-fluid' : 'container'} p-relative`} style={{ margin : '0', maxWidth : '100%', padding:"10px"}}>
               <div className="row align-items-center">
                 <div className="col-xxl-1 col-xl-1 col-lg-1 col-md-10 col-10" >
                   <div className="logo-dark" style={{ width:'50vw' }}>
@@ -49,9 +49,6 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         <li>
                           <Link href="/help-center">Réseau </Link>
                         </li>
-                        <li>
-                          <Link href="/privacy-policy">Actualités </Link>
-                        </li>
                         <li className="has-dropdown">
                           <Link href="/">
                              <a>Nos produits</a>
@@ -59,7 +56,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <ul className="submenu">
                           <li><Link href="/home-four">Particulier</Link></li>
                           <li><Link href="/home-five">Professionnel & Entreprise</Link></li>
-                            <li><Link href="/home-seven">Bancassurance</Link></li>
+                            <li><Link href="/home-seven">Partenaires</Link></li>
                           </ul>
                         </li>
                         <li>
@@ -68,6 +65,9 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         <li style={{ color:"#f9b233" }}>
                             <Link href="https://laloyalevie.com/espace-client/login.php">Ynov</Link>
                         </li>    
+                        <li>
+                          <Link href="/privacy-policy">Actualités </Link>
+                        </li>
                         {/* <li>
                           <Link href="/about">Contacts </Link>
                         </li> */}

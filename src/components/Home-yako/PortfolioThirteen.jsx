@@ -29,9 +29,9 @@ const PortfolioThirteen = () => {
                       </div>
                       <div class="BlocBandeauText">
                         <div class="BlocText">
-                          <h2>
-                            <a href={`/${item.id}`} style={{ fontSize:"17px" }}>{item.title}</a>
-                          </h2>
+                          <p style={{ lineHeight:"20px", margin:"auto" }}>
+                            <a href={`/${item.id}`} style={{ fontSize:"20px", fontWeight:"bold" }}>{item.title}</a>
+                          </p>
                           {/* <p class="bodytext">&nbsp;</p> */}
                         </div>
                           <div class="ButtonText">
@@ -64,13 +64,9 @@ const PortfolioThirteen = () => {
                 </div>
                 <div class="BlocBandeauText">
                   <div class="BlocText">
-                    <h2>
-                      <a href="/about"  style={{ fontSize:"17px" }}>Connaître Yako Africa</a>
-                    </h2>
-                    <p class="bodytext">&nbsp;</p>
-                    <p class="bodytext">
-                      <a href="/about">Fondation, RSE, recrutement...</a>
-                    </p>
+                  <p style={{ lineHeight:"20px", margin:"auto" }}>
+                    <a href="/about" style={{ fontSize:"20px", fontWeight:"bold" }}>Connaître Yako Africa</a>
+                  </p>
                   </div>
                 </div>
                 {/* <div className="tppg-project__content">

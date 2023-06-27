@@ -463,7 +463,7 @@
 .footer-sp-title{
     font-size: 32px;
     line-height: 1.2;
-    color: var(--tp-common-white);
+    color: #2b6338;
     font-weight: var(--tp-fw-sbold);
     @media #{$lg} {
         font-size: 20px;
@@ -472,7 +472,7 @@
         font-size: 25px;
     }
     & i{
-        color: var(--tp-theme-1);
+        color: #f9b233;
         margin-right: 6px;
     }
 
@@ -485,7 +485,7 @@
 .footer-sp-contact{
     font-size: 17px;
     font-weight: var(--tp-fw-medium);
-    color: var(--tp-common-white);
+    color: #2b6338;
     display: block;
 
     & a{
@@ -497,7 +497,7 @@
 .footer-xs-title{
     font-size: 18px;
     font-weight: var(--tp-fw-medium);
-    color: var(--tp-common-white);
+    color: #2b6338;
 }
 .footer-links{
     & ul{
@@ -509,7 +509,7 @@
             & a{
                 font-size: 15px;
                 font-weight: var(--tp-fw-medium);
-                color: var(--tp-grey-5);
+                color: #2b6338;
                 &:hover{
                     color: var(--tp-theme-1);
                 }
