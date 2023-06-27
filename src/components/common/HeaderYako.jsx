@@ -24,7 +24,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                     <Link href="/">
                      <a>
                      { homeNine ? <img src="/assets/img/logo/logo-white.png" alt="logo" />
-                      : <img src="/assets/img/logo/logo.png" alt="logo" />}
+                      : <img src="/assets/img/logo/logo.png" alt="logo" style={{ maxWidth:"100px" }} />}
                      </a>
                     </Link>
                   </div>

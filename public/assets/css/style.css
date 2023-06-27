@@ -526,3 +526,9 @@ body{
     color: #f9b233;
   }
 }
+
+@media screen and (max-width:1100){
+  .tpmenu ul li a{
+    font-size: 13px;
+  }
+}
