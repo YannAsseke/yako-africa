@@ -87,42 +87,33 @@ const Sidebar = ({ headerMenu }) => {
                 <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACCUEIL</a></Link></li>
                   </div>
-
+                  <div className="single_link iconAdd">
+                    <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>QUI SOMMES NOUS</a></Link></li>
+                  </div>
+                  <div className="single_link iconAdd">
+                    <li onClick={() => setShowSidebar(false)}><Link href="/help-center">RESEAU</Link></li>
+                  </div>
                   <Collapsible trigger={<a>NOS PRODUITS</a>} triggerTagName="div"
                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                     <ul onClick={() => setShowSidebar(false)}
                       className="sidebar_sub_menu submenu text-black" >
-                      <li><Link href="/home-four">Particulier</Link></li>
-                      <li><Link href="/home-five">Profesionnel</Link></li>
-                      <li><Link href="/home-six">Entreprise</Link></li>
-                      <li><Link href="/home-seven">Bancassurance</Link></li>
-                    </ul>
-                  </Collapsible>
-                  <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/help-center">RESEAU</Link></li>
-                  </div>
-                  <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACTUALITÉS</a></Link></li>
-                  </div>
-                  <Collapsible trigger={<a>SERVICES</a>} triggerTagName="div"
-                    triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                    <ul onClick={() => setShowSidebar(false)}
-                      className="sidebar_sub_menu submenu text-black" >
-                      <li>
-                        <Link href="https://laloyalevie.com/espace-client/login.php">
-                          <a>
-                            <img src="/assets/img/logo/ynov.png" alt="logo" style={{maxWidth : '30%'}}/>
-                          </a>
-                        </Link>
-                      </li>
+                      <li><Link href="/home-four">Particuliers</Link></li>
+                      <li><Link href="/home-five">Profesionnels</Link></li>
+                      <li><Link href="/home-six">Entreprises</Link></li>
+                      <li><Link href="/home-seven">Partenaires</Link></li>
                     </ul>
                   </Collapsible>
                   <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/"><a>PARTENAIRES</a></Link></li>
                   </div>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>QUI SOMMES NOUS</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="https://www.laloyalevie.com/acceuilServices.php"><a>E-SERVICES</a></Link></li>
                   </div>
+                  <div className="single_link iconAdd">
+                    <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACTUALITÉS</a></Link></li>
+                  </div>
+                  
+                  
                   {/* <div className="single_link iconAdd">
                     <li><Link href="/"><a>ACTUALITÉS</a></Link></li>
                   </div>
@@ -273,7 +264,7 @@ const Sidebar = ({ headerMenu }) => {
                     <i className="far fa-phone"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    <a href="tel:+2252720331500"> 27 20 33 15 00  /  25 20 01 86 01</a>
+                    <a href="tel:+2252720331500"> 27 20 33 15 00</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center">

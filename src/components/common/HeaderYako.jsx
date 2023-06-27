@@ -63,7 +63,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/portfolio-three">Partenaires </Link>
                         </li>
                         <li style={{ color:"#f9b233" }}>
-                            <Link href="https://laloyalevie.com/espace-client/login.php">Ynov</Link>
+                            <Link href="https://www.laloyalevie.com/acceuilServices.php">E-SERVICES</Link>
                         </li>    
                         <li>
                           <Link href="/privacy-policy">Actualités </Link>

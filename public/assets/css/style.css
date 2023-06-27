@@ -230,7 +230,6 @@ body{
   .BlocBandeauText {
     width: 100%;
     bottom: 20px;
-    position: absolute;
 }
 }
 
@@ -240,7 +239,7 @@ body{
   border-radius: 10px;
   box-shadow: 1px 1px 6px 1px black;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   min-width: 160px;
   background-color: #f9b233;
   color: White;
@@ -550,12 +549,11 @@ body{
   .BlocBandeauText {
     width: 100%;
     bottom: 20px;
-    position: absolute;
 }
 }
 
 .BlocBandeauText {
-    width: 50%;
+    width: 70%;
     margin: 440px auto 0 auto;
 }
 
@@ -605,7 +603,7 @@ body{
 
 @media (min-width: 768px){
   .BlocBandeauTextFour {
-    width: 100%;
+    width: 30%;
     bottom: 20px;
 }
 }

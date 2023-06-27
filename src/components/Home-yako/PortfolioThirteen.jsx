@@ -36,7 +36,7 @@ const PortfolioThirteen = () => {
           
           </div>
           <div className="row" style={{   padding: "0" }}>
-            <div className='clearBoxFour'>
+            <div className='clearBoxFour' style={{ padding:"0" }}>
               <div className="col-sm-12 boxFour">
                 <div class="BlocBandeauTextFour">
                   <div class="BlocText">
