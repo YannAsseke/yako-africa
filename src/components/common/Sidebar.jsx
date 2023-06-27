@@ -68,7 +68,7 @@ const Sidebar = ({ headerMenu }) => {
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
               <a href="index.html">
-                <img src="/assets/img/logo/logo.png" alt="logo" />
+                <img src="/assets/img/logo/logo.png" alt="logo" style={{ maxWidth:"100px" }} />
               </a>
             </div>
             {/* 
