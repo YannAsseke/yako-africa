@@ -882,25 +882,25 @@ const portfolioData = [
       },
       {
         id:140,
-        img:'assets/img/project/5/particulier.jpg',
+        img:"particulier.jpg",
         col:'1',
         title:'Particulier'
       },
       {
         id:'home-four',
-        img:'assets/img/project/5/particulier-2.png',
+        img:"particulier-2.png",
         col:'3',
         title:'Particuliers'
       },
       {
         id:'home-five',
-        img:'assets/img/project/5/professionnel.png',
+        img:"professionnel.png",
         col:'1',
         title:'Professionnels & Entreprises'
       },
       {
         id:'home-seven',
-        img:'assets/img/project/5/bancassurance.png',
+        img:"bancassurance.png",
         col:'3',
         title:'Partenaires'
       },
