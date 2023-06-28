@@ -112,7 +112,7 @@ const Sidebar = ({ headerMenu }) => {
                   <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACTUALITÉS</a></Link></li>
                   </div>
-                  
+                  <button class="btn-assi draw-border" style={{ marginTop:"10px" }}><a href="/assistance">ASSISTANCE</a></button>
                   
                   {/* <div className="single_link iconAdd">
                     <li><Link href="/"><a>ACTUALITÉS</a></Link></li>
@@ -279,10 +279,8 @@ const Sidebar = ({ headerMenu }) => {
             </div>
             <div className="sidebar__social">
               <ul>
-                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/YakoAfrica.SA/" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/laloyalevie/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>

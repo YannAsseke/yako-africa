@@ -179,9 +179,9 @@
         &::before{
             position: absolute;
             content: '';
-            left: 0;
-            background: var(--tp-grey-1);
-            width: 1px;
+            right: 0;
+            background: #f9b233;
+            width: 5px;
             height: 100%;
             @media #{$lg,$xs} {
                 left: 10px;
@@ -214,11 +214,12 @@
                     right: 0;
                     width: 0%;
                     height: 1px;
-                    background-color: #FD4766;
+                    background-color: #f9b233;
                 }
                 &:hover,
                 &.active{
-                    color: var(--tp-theme-1);
+                  font-weight: 500;
+                    color: #2b6338;
 
                     &::after{
                         width: 100%;

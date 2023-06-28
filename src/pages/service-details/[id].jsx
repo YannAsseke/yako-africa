@@ -35,7 +35,7 @@ const ServiceDetails = () => {
         <div className="container">
         <h4 className="services-d-title mb-25" style={{ color:'#f9b233' }}>{serviceItem.title}</h4>
           <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="services-sm-image w-img mb-45">
                 <img src={serviceItem.service} alt="services-sm-img" />
               </div>

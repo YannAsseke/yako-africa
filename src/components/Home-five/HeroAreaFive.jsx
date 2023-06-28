@@ -10,10 +10,10 @@ const ServicesList = () => {
       <div className="row">
         <div class="wrapper">
             {
-              Particulier.slice(6, 9).map(item => (
+              Particulier.slice(6, 10).map(item => (
                 
                 <div key={item.id} className="card">
-                  <h2 className="card-title"><a href={`/service-details/${item.id}`}>{item.title}</a></h2>
+                  <h2 className="card-title" style={{ fontSize:"15px" }}><a href={`/service-details/${item.id}`}>{item.title}</a></h2>
                   <h3 className="card-title-2"><a href={`/service-details/${item.id}`}>{item.soustitle}</a></h3>
                     <p className="card-content">{item.desc}</p>
                     <a href={`/service-details/${item.id}`} className="card-btn">En savoir plus</a>

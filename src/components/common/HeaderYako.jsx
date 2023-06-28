@@ -50,12 +50,12 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/help-center">Réseau </Link>
                         </li>
                         <li className="has-dropdown">
-                          <Link href="/">
+                          <Link href="">
                              <a>Nos produits</a>
                           </Link>
                           <ul className="submenu">
-                          <li><Link href="/home-four">Particulier</Link></li>
-                          <li><Link href="/home-five">Professionnel & Entreprise</Link></li>
+                          <li><Link href="/home-four">Particuliers</Link></li>
+                          <li><Link href="/home-five">Professionnels & Entreprises</Link></li>
                             <li><Link href="/home-seven">Partenaires</Link></li>
                           </ul>
                         </li>
@@ -68,6 +68,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         <li>
                           <Link href="/privacy-policy">Actualités </Link>
                         </li>
+                        <button class="btn-assi draw-border" ><a href="/assistance">ASSISTANCE</a></button>
                         {/* <li>
                           <Link href="/about">Contacts </Link>
                         </li> */}

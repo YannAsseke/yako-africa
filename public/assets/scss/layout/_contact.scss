@@ -482,27 +482,27 @@
                     @include border-radius(4px);
 
                     &.fb{
-                        color: #285da1;
-                        background: rgba($color: #285da1, $alpha: .1);
+                        color: #2b6338;
+                        background: rgba($color: #2b6338, $alpha: .1);
                         &:hover{
                             color: var(--tp-common-white);
-                            background: #285da1;
+                            background: #2b6338;
                         }
                     }
                     &.tw{
-                        color: #03a9f4;
-                        background: rgba($color: #03a9f4, $alpha: .1);
+                        color: #2b6338;
+                        background: rgba($color: #2b6338, $alpha: .1);
                         &:hover{
                             color: var(--tp-common-white);
-                            background: #03a9f4;
+                            background: #2b6338;
                         }
                     }
                     &.pin{
-                        color: #d8163f;
-                        background: rgba($color: #d8163f, $alpha: .1);
+                        color: #2b6338;
+                        background: rgba($color: #2b6338, $alpha: .1);
                         &:hover{
                             color: var(--tp-common-white);
-                            background: #d8163f;
+                            background: #2b6338;
                         }
                     }
                 }
