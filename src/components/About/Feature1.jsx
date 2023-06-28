@@ -6,6 +6,95 @@ const VideoAreaFour = () => {
   const { show, handleShow, handleClose } = useGlobalContext();
   return (
     <>
+      <section id='team'>
+          <h1>
+            <strong>La direction</strong>
+          </h1>
+          <div className="container">
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/dg.jpg" alt="dg"/>
+                  <strong style={{ color : "#2b6338",paddingTop : "40px", fontSize:"20px" }}>JOSEPH MANCANBOU</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur Général</p>
+                </div>
+                
+            </div>
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/dga.jpg" alt="dga"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>MARTIAL EBA</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur Général Adjoint</p>
+                </div>
+                
+            </div>
+          </div>
+          <div className="container">
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/dfc.jpg" alt="dfc"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>PASCAL KONAN</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur Financier et Comptable</p>
+                </div>
+                
+            </div>
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/dta.jpg" alt="dta"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>PASCAL ABOA</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur Technique et Actuariat</p>
+                </div> 
+            </div>
+          </div>
+          <div className="container">
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/dsi.jpg" alt="dsi"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>SERGE ADOPO</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur du Système d'Information</p>
+                </div>
+                
+            </div>
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/drh.jpg" alt="drh"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>OUSMANE BARADJI</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur des Ressources Humaines</p>
+                </div>
+                
+            </div>
+            <div className="box">
+              <div className="top-bar"></div>
+                <div className="nav">
+                </div>
+                <div className="details">
+                  <img src="/assets/img/services/ddc.jpg" alt="ddc"/>
+                  <strong style={{ paddingTop : "40px", color : "#2b6338",fontSize:"20px" }}>KOFFI YEBOUA</strong>
+                  <p style={{color : "#2b6338",fontSize:"15px", textAlign:"center" }}>Directeur du Département Commercial</p>
+                </div>
+                
+            </div>
+          </div>
+      </section>
+
+
       <div className="tpbs-video-area position-relative my-[20px]">
         <div className="tpbsvideo-left text-center p-relative">
           <div className="tpbs-left-image" style={{ backgroundImage: `url(assets/img/about/feature.png)`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}></div>

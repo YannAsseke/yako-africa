@@ -3,6 +3,7 @@ import Link from 'next/link';
 const AboutArea = () => {
   return (
     <>
+    <section id='motdg'>
       <div id="about-area" className="tpabout-area pt-140 pb-90">
         <div className="container">
           <div className="row align-items-center">
@@ -23,6 +24,7 @@ const AboutArea = () => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };
