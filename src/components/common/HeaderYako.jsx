@@ -56,7 +56,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <ul className="submenu">
                           <li><Link href="/home-four">Particuliers</Link></li>
                           <li><Link href="/home-five">Professionnels & Entreprises</Link></li>
-                            <li><Link href="/home-seven">Partenaires</Link></li>
+                            <li><Link href="/portfolio-three">Partenaires</Link></li>
                           </ul>
                         </li>
                         <li>

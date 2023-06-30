@@ -100,11 +100,11 @@ const Sidebar = ({ headerMenu }) => {
                       <li><Link href="/home-four">Particuliers</Link></li>
                       <li><Link href="/home-five">Profesionnels</Link></li>
                       <li><Link href="/home-six">Entreprises</Link></li>
-                      <li><Link href="/home-seven">Partenaires</Link></li>
+                      <li><Link href="/portfolio-three">Partenaires</Link></li>
                     </ul>
                   </Collapsible>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/"><a>PARTENAIRES</a></Link></li>
+                    <li onClick={() => setShowSidebar(false)}><Link href="/portfolio-three"><a>PARTENAIRES</a></Link></li>
                   </div>
                   <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="https://www.laloyalevie.com/acceuilServices.php"><a>E-SERVICES</a></Link></li>

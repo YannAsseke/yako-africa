@@ -3,6 +3,7 @@ import Breadcrumb from '../common/Breadcrumb';
 import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/HeaderYako';
 import PrivacyContent from './PrivacyContent';
+import Contact from '../Contact/ContactArea';
 
 
 const index = () => {
@@ -11,6 +12,7 @@ const index = () => {
       <Header/>
       <Breadcrumb title="Actualités" subtitle="ACTUALITES" />
       <PrivacyContent/>
+      <Contact />
       <FooterTwo/>
     </>
   );

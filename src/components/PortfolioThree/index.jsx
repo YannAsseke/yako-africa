@@ -4,6 +4,8 @@ import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/Header';
 import HeaderYako from '../common/HeaderYako';
 import PortfolioOne from '../common/Portfolio/PortfolioOne';
+import Contact from '../Contact/ContactArea';
+
 
 const index = () => {
   return (
@@ -11,6 +13,7 @@ const index = () => {
       <HeaderYako/>
       <Breadcrumb title="NOS PARTENAIRES"/>
       <PortfolioOne/>
+      <Contact />
       <FooterTwo/>
     </>
   );

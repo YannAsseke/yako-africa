@@ -1,33 +1,66 @@
-
 import { useFormik } from 'formik';
 import axios from 'axios';
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 import * as Yup from 'yup';
 import ErrorMsg from '../common/ErrorMsg';
-import schema, { registerSchema } from '../common/schema';
+
+const MySwal = withReactContent(Swal);
+
+const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
+const schema = Yup.object().shape({
+  name: Yup.string().required("Nom & Prénoms est obligatoire"),
+  number: Yup.string().required("Numéro de téléphone est obligatoire").matches(phoneRegExp, 'Numero de téléphone est invalide').min(8, "Au moins 8 chiffres"),
+  email: Yup.string().email("Email invalide"),
+  prestation: Yup.string().required("Prestation est obligatoire"),
+  message: Yup.string().required("Message est obligatoire")
+});
 
 const ContactArea = () => {
-  const handleOnSubmit = (values,{ resetForm }) => {
-    alert("Yann");
-    axios.post(submit, {
-      Name: values.name,
-      Email:values.email,
-      Prestation : values.prestation,
-      Message: values.message
-    }).then((response) =>{
-      console.log(response);
-    }).catch((err) =>console.log(err))
-    resetForm()
-  }
-  const { handleChange, handleSubmit, formState: errors, values, touched } = useFormik({
+  const alertContent = () => {
+    MySwal.fire({
+      title: "Success!",
+      text: "Vos informations ont été bien enregistrées! Vous serez recontacté.",
+      icon: "success",
+      timer: 2000,
+      timerProgressBar: true,
+      showConfirmButton: false,
+    });
+  };
+
+  const formik = useFormik({
     initialValues: {
-      name: '',
-      email: '',
-      subject: '',
-      msg: ''
+      name: "",
+      number: "",
+      email: "",
+      prestation: "",
+      message: "",
     },
+
+    // Pass the Yup schema to validate the form
     validationSchema: schema,
-    onSubmit: handleOnSubmit,
-  })
+
+    // Handle form submission
+    onSubmit: async ({ name, number, email, prestation, message }) => {
+      const data = {
+        Name:name,
+        Number:number,
+        Email:email,
+        Prestation:prestation,
+        Message:message,
+      }
+  
+      axios.post("/api/submit", data).then((response)=>{
+        console.log(response);
+        formik.resetForm();
+        alertContent();
+      }).catch((err) =>console.log(err))
+      console.log(data);
+    },
+  });
+
+  const { errors, touched, values, handleChange, handleSubmit } = formik;
+
 
   return (
     <>
@@ -47,25 +80,31 @@ const ContactArea = () => {
                       <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
                           <input id='name' value={values.name} onChange={handleChange} type="text" placeholder="Nom & Prénoms" />
-                          {touched.name && <p className='error-style'>Prestation est obligatoire</p>}
+                          {touched.name && <ErrorMsg error={errors.name} />}
+                        </div>
+                      </div>
+                      <div className="col-xxl-6 col-xl-6 col-md-6">
+                        <div className="contact__form-input">
+                          <input id='number' value={values.number} onChange={handleChange} type="text" placeholder="Numero de téléphone" />
+                          {touched.number && <ErrorMsg error={errors.number} />}
                         </div>
                       </div>
                       <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
                           <input id='email' value={values.email} onChange={handleChange} type="email" placeholder="Email" />
-                          {touched.email && <p className='error-style'>Prestation est obligatoire</p>}
+                          {touched.email && <ErrorMsg error={errors.email} />}
                         </div>
                       </div>
-                      <div className="col-xxl-12">
+                      <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
                           <input id='prestation' value={values.prestation} onChange={handleChange} type="text" placeholder="Prestation" />
-                          {touched.prestation && <p className='error-style'>Prestation est obligatoire</p>}
+                          {touched.prestation && <ErrorMsg error={errors.prestation} />}
                         </div>
                       </div>
                       <div className="col-xxl-12">
                         <div className="contact__form-input">
                           <textarea id='message' value={values.message} onChange={handleChange} placeholder="Message"></textarea>
-                          {touched.message && <p className='error-style'>Message est obligatoire</p>}
+                          {touched.message && <ErrorMsg error={errors.message} />}
                         </div>
                       </div>
                       <div className="col-xxl-12">
@@ -75,63 +114,6 @@ const ContactArea = () => {
                       </div>
                     </div>
                   </form>
-
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-4 offset-xxl-1 col-xl-4 offset-xl-1 col-lg-5 offset-lg-1">
-              <div className="contact__info white-bg p-relative z-index-1">
-                <div className="contact__shape">
-                  <img className="contact-shape-1" src="assets/img/contact/contact-shape-1.png" alt="" />
-                  <img className="contact-shape-2" src="assets/img/contact/contact-shape-2.png" alt="" />
-                </div>
-                <div className="contact__info-inner white-bg">
-                  <div className="contact__info-item d-flex align-items-start mb-35">
-                    <div className="contact__info-icon mr-15">
-                      <svg className="map" viewBox="0 0 24 24">
-                        <path className="st0" d="M21,10c0,7-9,13-9,13s-9-6-9-13c0-5,4-9,9-9S21,5,21,10z" />
-                        <circle className="st0" cx="12" cy="10" r="3" />
-                      </svg>
-                    </div>
-                    <div className="contact__info-text">
-                      <h4>New York Office</h4>
-                      <p><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">Maypole Crescent 70-80 Upper St Norwich NR2 1LT</a></p>
-
-                    </div>
-                  </div>
-                  <div className="contact__info-item d-flex align-items-start mb-35">
-                    <div className="contact__info-icon mr-15">
-                      <svg className="mail" viewBox="0 0 24 24">
-                        <path className="st0" d="M4,4h16c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H4c-1.1,0-2-0.9-2-2V6C2,4.9,2.9,4,4,4z" />
-                        <polyline className="st0" points="22,6 12,13 2,6 " />
-                      </svg>
-                    </div>
-                    <div className="contact__info-text">
-                      <h4>Email us directly</h4>
-                      <p><a href="mailto:support@nerox.com">support@nerox.com</a></p>
-                      <p><a href="mailto:info@nerox.com"> info@nerox.com</a></p>
-                    </div>
-                  </div>
-                  <div className="contact__info-item d-flex align-items-start mb-35">
-                    <div className="contact__info-icon mr-15">
-                      <svg className="call" viewBox="0 0 24 24">
-                        <path className="st0" d="M22,16.9v3c0,1.1-0.9,2-2,2c-0.1,0-0.1,0-0.2,0c-3.1-0.3-6-1.4-8.6-3.1c-2.4-1.5-4.5-3.6-6-6  c-1.7-2.6-2.7-5.6-3.1-8.7C2,3.1,2.8,2.1,3.9,2C4,2,4.1,2,4.1,2h3c1,0,1.9,0.7,2,1.7c0.1,1,0.4,1.9,0.7,2.8c0.3,0.7,0.1,1.6-0.4,2.1  L8.1,9.9c1.4,2.5,3.5,4.6,6,6l1.3-1.3c0.6-0.5,1.4-0.7,2.1-0.4c0.9,0.3,1.8,0.6,2.8,0.7C21.3,15,22,15.9,22,16.9z" />
-                      </svg>
-                    </div>
-                    <div className="contact__info-text">
-                      <h4>Phone</h4>
-                      <p><a href="tel:+(426)-742-26-44">+(426) 742 26 44</a></p>
-                      <p><a href="tel:+(224)-762-442-32">+(224) 762 442 32</a></p>
-                    </div>
-                  </div>
-                  <div className="contact__social pl-30">
-                    <h4>Follow Us</h4>
-                    <ul>
-                      <li><a href="#" className="fb" ><i className="fa-brands fa-facebook-f"></i></a></li>
-                      <li><a href="#" className="tw" ><i className="fa-brands fa-twitter"></i></a></li>
-                      <li><a href="#" className="pin" ><i className="fa-brands fa-linkedin-in"></i></a></li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>

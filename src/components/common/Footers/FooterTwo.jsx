@@ -96,7 +96,7 @@ const FooterTwo = () => {
                       
                       <li><a href="/home-four">Particuliers</a></li>
                       <li><a href="/home-five">Professionnels & Entreprises</a></li>
-                      <li><a href="/home-seven">Partenaires</a></li>
+                      <li><a href="/portfolio-three">Partenaires</a></li>
                     </ul>
                   </div>
                 </div>

@@ -4,6 +4,7 @@ import FooterTwo from '../common/Footers/FooterTwo';
 import HeaderYako from '../common/HeaderYako';
 import PrivacyContent from './PrivacyContent';
 import SearchArea from './SearchArea';
+import Contact from '../Contact/ContactArea';
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
       <HeaderYako/>
       <Breadcrumb title="Notre Réseau" subtitle="NOTRE RESEAU" />
       <PrivacyContent/>
+      <Contact />
       <FooterTwo/>
     </>
   );

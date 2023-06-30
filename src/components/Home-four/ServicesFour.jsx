@@ -9,7 +9,7 @@ const ServicesList = () => {
       <h4 className="pb-80" style={{ textAlign: 'center', color:'white', fontSize:'50px', fontWeight:'bold' }}>Particuliers</h4>
         
         <div className="row">
-        <div class="wrapper">
+        <div className="wrapper">
             {
               Particulier.slice(1, 6).map(item => (
                 
