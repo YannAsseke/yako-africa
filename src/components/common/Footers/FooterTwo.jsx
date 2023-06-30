@@ -7,7 +7,7 @@ const FooterTwo = () => {
         <div className="tpfooter-area black-bg-2 pt-30 pb-75">
           <div className="container" style={{ padding:"0 50px", maxWidth:"100%" }}>
             <div className="row">
-               <div className="col-xl-4 col-lg-5 col-md-5">
+               <div className="col-xl-4 col-lg-4 col-md-4">
                <div className="contact__info-inner white-bg" style={{ paddingBottom:"50px" }}>
                   <img src="/assets/img/logo/logo.png" alt="logo" style={{ margin:"20px 0", maxWidth:"130px" }}/>
                   <div className="contact__info-item d-flex align-items-start mb-35">
@@ -74,7 +74,7 @@ const FooterTwo = () => {
                   </div> 
                 </div>*/}
               </div> 
-              <div className="col-xl-2 col-lg-1 col-md-2 col-sm-2">
+              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
                   <h5 className="footer-xs-title mb-20">NOTRE SOCIETE</h5>
                   <div className="footer-links mb-30">
@@ -88,7 +88,7 @@ const FooterTwo = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-1 col-md-2 col-sm-2">
+              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
                   <h5 className="footer-xs-title mb-20">NOS PRODUITS</h5>
                   <div className="footer-links mb-30">
@@ -101,7 +101,7 @@ const FooterTwo = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-1 col-md-2 col-sm-2">
+              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
                   <h5 className="footer-xs-title mb-20">RESEAU</h5>
                   <div className="footer-links mb-30">
@@ -112,7 +112,7 @@ const FooterTwo = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-1 col-md-2 col-sm-2">
+              <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
                   <h5 className="footer-xs-title mb-20">E-SERVICES</h5>
                   <div className="footer-links mb-30">

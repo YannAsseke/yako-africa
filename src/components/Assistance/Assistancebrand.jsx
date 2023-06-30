@@ -4,30 +4,32 @@ import Particulier from "../../data/Produits";
 const Assistancebrand = () => {
   return (
     <>
-    
-    <div className="services-list-area pt-50" style={{paddingBottom:"550px", marginBottom:"400px", backgroundImage: "linear-gradient(to bottom, rgba(60, 60, 59, 0.6), rgba(43, 99, 56)), url('/assets/img/services/assistance.jpg')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
+    <div className="services-list-area pt-50" style={{paddingBottom:"550px", marginBottom:"400px", backgroundImage: "linear-gradient(to bottom, rgba(60, 60, 59, 0.6), #f9b233), url('/assets/img/services/assistance.jpg')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
       <h4 className="pb-80" style={{ textAlign: 'center', color:'white', fontSize:'50px', fontWeight:'bold' }}>Services & Assistance</h4>
     </div>
     <div className="row" style={{ position:"absolute", top:"50%", left:"2%", margin:"auto", width:"95%" }}>
         <div class="wrapper-assi" style={{ margin:"auto" }}>
                 
-                <div className="card" style={{ textAlign:"center" }}>
-                  <h2 className="card-title" style={{ fontSize:"20px" }}>J'ai une urgence en cours</h2>
+                <div className="card" style={{ textAlign:"center", backgroundColor:"#2b6338" }}>
+                  <h2 className="card-title" style={{ fontSize:"20px", }}>J'ai une urgence en cours</h2>
                   <h3 className="card-title-2"></h3>
-                    <p className="card-content" style={{ color:"#3c3c3b" }}>Une porte claquée, une fuite d'eau, une voiture en panne... notre service d'assistance est là pour vous aider en cas de pépin.</p>
-                    <a href="" className="card-btn" style={{ marginLeft:"0", padding:"10px 1px", marginTop:"auto", fontSize:"15px" }}>Voir les numéros d'urgence</a>
+                    <p className="card-content" style={{ color:"#fff" }}>Vous avez besoin d'un document contractuel pour votre dossier bancaire, vous avez besoin d'une attestation...</p>
+                    <p className="card-content" style={{ color:"#fff" }}>notre service d'assistance est là pour vous aider en cas de pépin.</p>
+                    <a href="tel:+2252720331500" className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}><i className='fa fa-phone' style={{ paddingRight:"10px" }}></i>+(225) 27 20 33 15 00</a>
                 </div>
-                <div className="card" style={{ textAlign:"center" }}>
+                <div className="card" style={{ textAlign:"center", backgroundColor:"#2b6338" }}>
                   <h2 className="card-title" style={{ fontSize:"20px" }}>J'ai un sinistre à déclarer</h2>
                   <h3 className="card-title-2"></h3>
-                    <p className="card-content" style={{ color:"#3c3c3b" }}>Un accrochage en voiture, la toiture de votre maison endommagée par la grêle... déclarez votre sinistre en ligne ou par téléphone.</p>
-                    <a href="" className="card-btn" style={{ marginLeft:"0", padding:"10px 1px", marginTop:"auto", fontSize:"15px" }}>Déclarer un sinistre</a>
+                    <p className="card-content" style={{ color:"#fff" }}>Vous venez de perdre un parent, vous avez enterré votre parent sans prévenir l'assistance, vous avez perdu le contrat d'assurance avec le sinistre...</p>
+                    <p className="card-content" style={{ color:"#fff" }}>Déclarez votre sinistre en ligne</p>
+                    <a href="" className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}>Déclarer un sinistre</a>
                 </div>
-                <div className="card" style={{ textAlign:"center" }}>
+                <div className="card" style={{ textAlign:"center", backgroundColor:"#2b6338" }}>
                   <h2 className="card-title" style={{ fontSize:"20px" }}>J'ai une autre demande</h2>
                   <h3 className="card-title-2"></h3>
-                    <p className="card-content" style={{ color:"#3c3c3b" }}>Consultation et gestion de vos contrats, téléchargement d’une attestation, échanges avec YAKO AFRICA ASSURANCES VIE… vous avez la main. </p>
-                    <a href="" className="card-btn" style={{ marginLeft:"0", padding:"10px 1px", marginTop:"auto", fontSize:"15px" }}>Découvrir vos services en ligne</a>
+                    <p className="card-content" style={{ color:"#fff" }}>Consultation et gestion de vos contrats, téléchargement d’une attestation, échanges avec YAKO AFRICA ASSURANCES VIE…</p>
+                    <p className="card-content" style={{ color:"#fff" }}>Vous avez la main.</p>
+                    <a href="tel:+2252720331500" className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}><i className='fa fa-phone' style={{ paddingRight:"10px" }}></i>+(225) 27 20 33 15 00</a>
                 </div>
       
         </div>

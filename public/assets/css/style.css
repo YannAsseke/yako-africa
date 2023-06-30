@@ -332,7 +332,6 @@ body{
   display: block;
   margin-left: auto;
   margin-top: auto;
-  border: 2px solid #f9b233;
   padding: 10px 15px;
   border-radius: 25px;
   font-size: 12px;
@@ -342,8 +341,7 @@ body{
   letter-spacing: 1.2px;
 }
 .card-btn:hover{
- color:#02b875;
- border: 2px solid #02b875;
+ color:#2b6338;
  background: #FFF;
 }
 

@@ -10,8 +10,7 @@ const PrivacyContent = () => {
             <div className="col-md-8 mt-2">
                 <div className="">
                     <div className="card-body">
-                    <h4 className="pb-30" style={{ textAlign: 'center', color:'#2b6338', fontSize:'50px', fontWeight:'500' }}>Notre Réseau</h4>
-                    <p style={{color:'#3c3c3b', fontSize:'30px', fontWeight:"600", textAlign:"center"}}>Encore plus proche de vous grâce à notre vaste réseau de distribution couvrant <b style={{ color:"#2b6338" }}>le territoire national mais aussi la diaspora</b>.</p>
+                    <p className="pt-30 pb-30" style={{color:'#3c3c3b', fontSize:'35px', fontWeight:"600", textAlign:"center"}}>Encore plus proche de vous grâce à notre vaste réseau de distribution couvrant <b style={{ color:"#2b6338" }}>le territoire national mais aussi la diaspora</b>.</p>
                     <p style={{color:'#3c3c3b', fontSize:'20px'}}>Nous nous appuyons sur nos espaces clientèle particuliers et entreprises présents dans plusieurs villes de la cote d’ivoire mais aussi sur nos partenaires banques, sociétés de courtage de premier rang et institutions financières afin de desservir une grande partie de la population.</p>
                     <div className="services-details-area pt-50">
                       

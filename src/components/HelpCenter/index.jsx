@@ -9,8 +9,7 @@ const index = () => {
   return (
     <>
       <HeaderYako/>
-      {/* <Breadcrumb title="HELP CENTER" subtitle="Help Center" /> */}
-      {/* <SearchArea/> */}
+      <Breadcrumb title="Notre Réseau" subtitle="NOTRE RESEAU" />
       <PrivacyContent/>
       <FooterTwo/>
     </>

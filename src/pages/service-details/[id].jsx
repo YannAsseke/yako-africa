@@ -37,7 +37,7 @@ const ServiceDetails = () => {
           <div className="row">
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="services-sm-image w-img mb-45">
-                <img src={serviceItem.service} alt="services-sm-img" />
+                <img src={serviceItem.img} style={{width:"200px", padding:"10px" }} alt="services-sm-img" />
               </div>
             </div>
           </div>

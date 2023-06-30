@@ -1,14 +1,24 @@
+
 import { useFormik } from 'formik';
+import axios from 'axios';
 import * as Yup from 'yup';
 import ErrorMsg from '../common/ErrorMsg';
-import schema from '../common/schema';
+import schema, { registerSchema } from '../common/schema';
 
 const ContactArea = () => {
   const handleOnSubmit = (values,{ resetForm }) => {
-    alert(`${values.name + "\n" + values.email + "\n" + values.subject + "\n" + values.msg}`);
+    alert("Yann");
+    axios.post(submit, {
+      Name: values.name,
+      Email:values.email,
+      Prestation : values.prestation,
+      Message: values.message
+    }).then((response) =>{
+      console.log(response);
+    }).catch((err) =>console.log(err))
     resetForm()
   }
-  const { handleChange, handleSubmit, handleBlur, errors, values, touched } = useFormik({
+  const { handleChange, handleSubmit, formState: errors, values, touched } = useFormik({
     initialValues: {
       name: '',
       email: '',
@@ -27,8 +37,8 @@ const ContactArea = () => {
             <div className="col-xxl-7 col-xl-7 col-lg-6">
               <div className="contact__wrapper">
                 <div className="section__title-wrapper mb-40">
-                  <h2 className="tp-title">Get in touch</h2>
-                  <p>Have a question or just want to say hi? We would love to hear from you.</p>
+                  <h2 className="tp-title" style={{ color:"#2b6338" }}>Nous contactez</h2>
+                  <p>Vous avez une question ou vous souhaitez simplement nous saluer ? Nous serions ravis de vous entendre.</p>
                 </div>
                 <div className="contact__form">
 
@@ -36,31 +46,31 @@ const ContactArea = () => {
                     <div className="row">
                       <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
-                          <input id='name' value={values.name} onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Your Name" />
-                          {touched.name && <ErrorMsg error={errors.name} />}
+                          <input id='name' value={values.name} onChange={handleChange} type="text" placeholder="Nom & Prénoms" />
+                          {touched.name && <p className='error-style'>Prestation est obligatoire</p>}
                         </div>
                       </div>
                       <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
-                          <input id='email' value={values.email} onChange={handleChange} onBlur={handleBlur} type="email" placeholder="Your Email" />
-                          {touched.email && <ErrorMsg error={errors.email} />}
+                          <input id='email' value={values.email} onChange={handleChange} type="email" placeholder="Email" />
+                          {touched.email && <p className='error-style'>Prestation est obligatoire</p>}
                         </div>
                       </div>
                       <div className="col-xxl-12">
                         <div className="contact__form-input">
-                          <input id='subject' value={values.subject} onChange={handleChange} onBlur={handleBlur} type="text" placeholder="Your Subject" />
-                          {touched.subject && <ErrorMsg error={errors.subject} />}
+                          <input id='prestation' value={values.prestation} onChange={handleChange} type="text" placeholder="Prestation" />
+                          {touched.prestation && <p className='error-style'>Prestation est obligatoire</p>}
                         </div>
                       </div>
                       <div className="col-xxl-12">
                         <div className="contact__form-input">
-                          <textarea id='msg' value={values.msg} onChange={handleChange} onBlur={handleBlur} placeholder="Write  Your Message"></textarea>
-                          {touched.msg && <ErrorMsg error={errors.msg} />}
+                          <textarea id='message' value={values.message} onChange={handleChange} placeholder="Message"></textarea>
+                          {touched.message && <p className='error-style'>Message est obligatoire</p>}
                         </div>
                       </div>
                       <div className="col-xxl-12">
                         <div className="contact__btn">
-                          <button type='submit' className="tp-solid-btn">Send your message</button>
+                          <button type='submit' className="tp-solid-btn" style={{ backgroundColor:"#f9b233", color:"#fff", fontSize:"15px"}}>Envoyer</button>
                         </div>
                       </div>
                     </div>
@@ -133,3 +143,4 @@ const ContactArea = () => {
 };
 
 export default ContactArea;
+

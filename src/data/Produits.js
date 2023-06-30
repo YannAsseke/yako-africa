@@ -3,10 +3,10 @@ import { Table } from 'react-bootstrap';
 const servicesData = [
       {
         id:1,
-        img:'/assets/img/icon/2/yako-senior.png',
+        img:'/assets/img/product/prevoyance.png',
         title:'Prévoyance',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits de prévoyance.',
-        service:'/assets/img/services/obseques.png',
+        desc:'',
+        service:'/assets/img/services/prevoyance.png',
         text :<> <div className="privacy-content-area">
         <div className="container">
           <div className="row">
@@ -18,15 +18,7 @@ const servicesData = [
                     <li className="nav-item" role="presentation">
                     <button style={{ fontSize:'32px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">Prévoyance</button>
                     </li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -68,9 +60,9 @@ const servicesData = [
       },
       {
         id:2,
-        img:'/assets/img/icon/2/performa.png',
+        img:'/assets/img/product/retraite.png',
         title:'Retraite',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’assurance retraite.',
+        desc:'Planifiez votre retraite en toute sérénité',
         service:'/assets/img/services/multisupport.png',
         text :<> 
               <div className="privacy-content-area">
@@ -82,16 +74,9 @@ const servicesData = [
 
                           <ul className="nav nav-tabs flex-column" id="privacy-nav" role="tablist">
                             <li className="nav-item" role="presentation">
-                            <button style={{ fontSize:'40px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">Cadence</button>
+                            <button style={{ fontSize:'40px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">Cadence Retraite</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                           </ul>
                         </div>
                       </div>
@@ -102,34 +87,9 @@ const servicesData = [
                           <div className="tab-pane fade show active" id="conditions" role="tabpanel" aria-labelledby="conditions-tab">
                             <div className="privacy-item mb-55">
                               {/* <h4 className="privacy-title mb-20" style={{ fontSize:'40px',color:'#2b6338', fontWeight:"400" }}>Cadence</h4> */}
-                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}><b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence</b> est un produit d’assurance vie multi-usage avec trois déclinaisons :</p>
-                              <br />
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Retraite Pension</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour constituer un complément de revenus à la retraite.</p>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Investissement</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour réaliser un investissement.</p>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Education</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour financer les études des enfants.</p>  
-                              <br />
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Cadence c’est une <b style={{ color:'#2b6338' }}>épargne flexible et adaptable</b></p>
-                              <ol>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><span style={{ fontSize:'18px', color:'black' }}>Vous pouvez opter pour le mode de paiement qui vous convient au terme du contrat : versement d’un capital unique ou d’une rente certaine.</span>
-                                </li></p>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><span style={{ fontSize:'18px', color:'black' }}>Vous pouvez vous construire un contrat sur mesure en fonction de vos besoins.</span>
-                                </li></p>
-                              </ol>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Cadence ce sont des <b style={{ color:'#2b6338' }}>garanties sur mesure</b></p>
-                              <ol>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Liberté :</b><span style={{ fontSize:'18px', color:'black' }}> pour l’épargne au terme du contrat</span>
-                                </li></p>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Sureté :</b><span style={{ fontSize:'18px', color:'black' }}> pour l’acquisition d’un capital en cas de décès avant le terme du  contrat</span>
-                                </li></p>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Dignité :</b><span style={{ fontSize:'18px', color:'black' }}> pour disposer d’argent liquide avant le terme du contrat</span>
-                                </li></p>
-                              </ol>
+                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}><b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence Retraite</b> vous permet d’obtenir un complément de revenus à la retraite pour faire face à la réduction de votre revenu.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}>Constituez en toute liberté une épargne en vue de la retraite et au terme du contrat, devenez titulaire d’une rente ou d’un capital selon votre cotisation</p>
+      
                             </div>
                           </div>
                         </div>
@@ -142,9 +102,9 @@ const servicesData = [
       },
       {
         id:3,
-        img:'/assets/img/icon/2/cadence-plus.png',
+        img:'/assets/img/product/obsèque.png',
         title:'Obsèques',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’obsèques.',
+        desc:'Accompagnez vos proches sereinement',
         service:'/assets/img/services/cadence.jpg',
         text :<>
                 <div className="privacy-content-area">
@@ -158,14 +118,7 @@ const servicesData = [
                             <li className="nav-item" role="presentation">
                             <button style={{ fontSize:'32px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">Obsèques</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                             <li className="nav-item" role="presentation"></li>
                           </ul>
                         </div>
@@ -177,17 +130,31 @@ const servicesData = [
                           <div className="tab-pane fade show active" id="conditions" role="tabpanel" aria-labelledby="conditions-tab">
                             <div className="privacy-item mb-55">
                               {/* <h4 className="privacy-title mb-20" style={{ fontSize:'40px',color:'#2b6338', fontWeight:"400" }}>Cadence</h4> */}
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large <b style={{ color:'#2b6338' }}>gamme de produits de prévoyance et d’ Obsèques.</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Vous pouvez choisir librement votre option de couverture parmi les solutions suivantes :</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une <b style={{ color:'#2b6338' }}>gamme de produits d’ Obsèques diversifiés, adaptés et accessibles à tous.</b></p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Parce que votre peine est lourde, nous allégeons les dépenses des funérailles. En cas de décès d’une personne assurée, les équipes de YAKO AFRICA Assurances Vie vous soutiennent et vous assistent.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Bénéficiez par l’intermédiaire de nos partenaires opérateurs de pompes funèbres représentés sur toute l’étendue du territoire des prestations en nature suivantes :</p>
+                              <ol>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Enlèvement, traitement et conservation du corps
+                                </li></p>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Levée de corps
+                                </li></p>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Allocation cercueil et transfert du corps au lieu d’inhumation
+                                </li></p>
+                              </ol>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>En plus, recevez un forfait en espèce de la part de YAKO AFRICA assurances vie.</p>
+                              
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Choisissez librement votre option de couverture parmi les solutions suivantes :</p>
                               <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Yako Solo</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>A partir de 1200 FCFA par mois souscrivez pour vous ou un proche.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Souscrivez pour vous ou un proche.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>En cas de décès de l’assuré, YAKO AFRICA Assurances Vie met à votre disposition un montant forfaitaire selon la formule choisie.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Vous bénéficiez aussi de l’enlèvement, le traitement, la conservation et en plus un avoir pour vous aider à l’achat du cercueil et au transfert du corps.</p>
                               <br />
                               <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Yako Eternité</b></p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour souscrire pour vous-même ou un proche sans limite d’âge.</p>
                               <br />
                               <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Yako Famille</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour couvrir toute la famille nucléaire.</p>
-                              <br />
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Libérez votre famille des soucis liés aux obsèques avec YAKO FAMILLE qui vous permet de couvrir tous les membres de famille nucléaire.</p>
+                              {/* <br />
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Le conseil, l’assistance et une prise en charge immédiate partout en Côte d’Ivoire.</p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>En cas de décès de la personne assurée, nos équipes vous conseillent, vous soutiennent et vous accompagnent.
                                 YAKO Assurance Obsèques engage YAKO AFRICA assurances vie à mettre à la disposition du bénéficiaire désigné, un ensemble de prestations au décès d’un assuré. 
@@ -195,7 +162,7 @@ const servicesData = [
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Les prestations en espèces sont assurées par YAKO AFRICA assurances vie et les prestations en nature sont assurées par nos partenaires opérateurs de pompes funèbres (enlèvement, traitement, conservation et levée du corps, allocation cercueil et transfert du corps ) représentés sur l’ensemble de la Côte d’Ivoire.
                               </p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Disposant d’une longue expérience et constitués d’experts dans leur secteur, nos partenaires confèrent au produit Yako Assurance Obsèques une crédibilité garantie.
-                              </p>
+                              </p> */}
                             </div>
                           </div>
                         </div>
@@ -208,9 +175,9 @@ const servicesData = [
       },
       {
         id:4,
-        img:'/assets/img/icon/2/doihoo.png',
+        img:'/assets/img/product/epargne.png',
         title:'Epargne',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’Epargne.',
+        desc:'Sécurisez votre avenir',
         service:'/assets/img/services/doihoo.png',
         text :<> 
               <div className="privacy-content-area">
@@ -227,14 +194,7 @@ const servicesData = [
                             <li className="nav-item" role="presentation">
                               <button style={{ fontSize:'40px'}} className="nav-link" id="license-tab" data-bs-toggle="tab" data-bs-target="#license" type="button" role="tab" aria-controls="license" aria-selected="false">Performa</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                           </ul>
                         </div>
                       </div>
@@ -245,32 +205,22 @@ const servicesData = [
                           <div className="tab-pane fade show active" id="conditions" role="tabpanel" aria-labelledby="conditions-tab">
                             <div className="privacy-item mb-55">
                               {/* <h4 className="privacy-title mb-20" style={{ fontSize:'40px',color:'#2b6338', fontWeight:"400" }}>Cadence</h4> */}
-                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}><b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence</b> est un produit d’assurance vie multi-usage avec trois déclinaisons :</p>
+                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}><b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence</b> est un produit d’épargne à multi-usage :</p>
                               <br />
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Retraite Pension</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour constituer un complément de revenus à la retraite.</p>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Investissement</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour réaliser un investissement.</p>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Education</b></p>
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour financer les études des enfants.</p>  
+                              <ol>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Pour constituer un complément de revenus à la retraite.
+                                </li></p>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Pour réaliser un projet d’investissement.
+                                </li></p>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Pour financer les études des enfants.
+                                </li></p>
+                              </ol> 
                               <br />
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Cadence c’est une <b style={{ color:'#2b6338' }}>épargne flexible et adaptable</b></p>
                               <ol>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><span style={{ fontSize:'18px', color:'black' }}>Vous pouvez opter pour le mode de paiement qui vous convient au terme du contrat : versement d’un capital unique ou d’une rente certaine.</span>
-                                </li></p>
                                 <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><span style={{ fontSize:'18px', color:'black' }}>Vous pouvez vous construire un contrat sur mesure en fonction de vos besoins.</span>
                                 </li></p>
-                              </ol>
-                              
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Cadence ce sont des <b style={{ color:'#2b6338' }}>garanties sur mesure</b></p>
-                              <ol>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Liberté :</b><span style={{ fontSize:'18px', color:'black' }}> pour l’épargne au terme du contrat</span>
-                                </li></p>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Sureté :</b><span style={{ fontSize:'18px', color:'black' }}> pour l’acquisition d’un capital en cas de décès avant le terme du  contrat</span>
-                                </li></p>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><b>Dignité :</b><span style={{ fontSize:'18px', color:'black' }}> pour disposer d’argent liquide avant le terme du contrat</span>
+                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}><span style={{ fontSize:'18px', color:'black' }}>Vous pouvez opter pour le mode de paiement qui vous convient au terme du contrat : versement d’un capital unique ou d’une rente certaine.</span>
                                 </li></p>
                               </ol>
                             </div>
@@ -304,9 +254,9 @@ const servicesData = [
       },
       {
         id:5,
-        img:'/assets/img/icon/2/yako-senior.png',
+        img:'/assets/img/product/education.png',
         title:'Education',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits d’Education.',
+        desc:"Assurez l'avenir de vos enfants",
         service:'/assets/img/services/prevoyance.png',
         text :<> 
               <div className="privacy-content-area">
@@ -320,14 +270,7 @@ const servicesData = [
                             <li className="nav-item" role="presentation">
                             <button style={{ fontSize:'32px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">Cadence Education</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                             <li className="nav-item" role="presentation"></li>
                           </ul>
                         </div>
@@ -339,23 +282,21 @@ const servicesData = [
                           <div className="tab-pane fade show active" id="conditions" role="tabpanel" aria-labelledby="conditions-tab">
                             <div className="privacy-item mb-55">
                               {/* <h4 className="privacy-title mb-20" style={{ fontSize:'40px',color:'#2b6338', fontWeight:"400" }}>Cadence</h4> */}
-                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}>Avec <b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence Education</b>, vous prévoyez et financez les études de vos enfants en toute sérénité.</p>
+                              <p className="services-text mb-1" style={{ fontSize:'20px', color:'black' }}>Avec <b style={{ fontSize:'35px', color:'#2b6338' }}>Cadence Education Plus</b>, vous prévoyez et financez les études de vos enfants en toute sérénité.</p>
                               <br />
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}><b style={{color:'#2b6338' }}>Cadence Education plus, </b>C’est un produit d’assurance qui garantit le financement des études supérieures de votre enfant tout en assurant la continuité de la scolarité de l’enfant en cas de décès de l’assuré avant le terme du contrat. C'est un produit d’assurance vie multi-usage avec trois déclinaisons :</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}><b style={{color:'#2b6338' }}>Cadence Education plus, </b>C’est un produit d’assurance qui garantit le financement des études supérieures de votre enfant tout en assurant la continuité de la scolarité de l’enfant en cas de décès de l’assuré avant le terme du contrat.</p>
                               <br />
-                              <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Retraite Pension</b></p>
+                              {/* <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Retraite Pension</b></p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour constituer un complément de revenus à la retraite</p>
                               <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Education</b></p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour financer les études des enfants.</p> 
                               <p className="services-text mb-1" style={{ fontSize:'25px', color:'black' }}><b style={{ color:'#2b6338' }}>Cadence Investissement</b></p>
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour réaliser un investissement.</p>  
-                              <br />
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'#f9b233', textDecoration:'underline' }}><b>4 bonnes raisons de choisir Cadence Éducation Plus</b></p>
+                              <br /> */}
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'#f9b233', textDecoration:'underline' }}><b>3 bonnes raisons de choisir Cadence Éducation Plus</b></p>
                               <br />
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Cadence Education Plus permet de bénéficier de :</p>
                               <ol>
-                                <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>La cessation des cotisations en cas de décès de l’assuré avant le terme du contrat
-                                </li></p>
                                 <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Un capital pour financer les études de votre enfant au terme du contrat 
                                 </li></p>
                                 <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Une rente en cas de décès de l’assuré avant le terme du contrat pour assurer la continuité des études de votre enfant
@@ -375,9 +316,9 @@ const servicesData = [
       },
       {
         id:6,
-        img:'/assets/img/icon/2/performa.png',
+        img:'/assets/img/product/placement.png',
         title:'Placement',
-        desc:'YAKO AFRICA assurances vie  s’est mis à votre écoute en développant une large gamme de produits de Placement.',
+        desc:"Gagnez plus d'argent",
         service:'/assets/img/services/obseques.png',
         text :<> 
               <div className="privacy-content-area">
@@ -391,14 +332,7 @@ const servicesData = [
                             <li className="nav-item" role="presentation">
                             <button style={{ fontSize:'32px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">DOIHOO</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                             <li className="nav-item" role="presentation"></li>
                           </ul>
                         </div>
@@ -410,10 +344,7 @@ const servicesData = [
                           <div className="tab-pane fade show active" id="conditions" role="tabpanel" aria-labelledby="conditions-tab">
                             <div className="privacy-item mb-55">
                               {/* <h4 className="privacy-title mb-20" style={{ fontSize:'40px',color:'#2b6338', fontWeight:"400" }}>Cadence</h4> */}
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>C’est un contrat d’assurance individuel de capitalisation qui permet de gagner jusqu’à <b style={{ fontSize:'18px', color:'#2b6338' }}>100%</b> du capital souscrit par tirage au sort. Tous les trimestres de l’année civile, un tirage au sort a lieu. Si vous êtes tiré au sort, vous gagnez un bonus de <b style={{ fontSize:'18px', color:'#2b6338' }}>20%</b> du capital souscrit. 
-                              Pendant la durée de vie de votre contrat, vous pouvez être tiré au maximum <b style={{ fontSize:'18px', color:'#2b6338' }}>cinq (5) fois</b>. Ainsi, le contrat DOIHOO vous donne la possibilité de gagner deux (2) fois le montant du capital souscrit. La durée du contrat est de <b style={{ fontSize:'18px', color:'#2b6338' }}>huit (8) fois</b>.</p>
-                              <br />
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}><b style={{color:'#2b6338' }}>DOIHOO</b>vous permet de faire deux choses :</p>
+                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>C’est un contrat d’assurance individuel de capitalisation qui permet de: </p>
                               <ol>
                                 <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Constituer une épargne
                                 </li></p>
@@ -421,7 +352,7 @@ const servicesData = [
                                 </li></p>
                               </ol>
                               <br />
-                              <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour être éligible, votre contrat doit avoir <b style={{color:'#2b6338' }}>trois(3) mois 
+                              {/* <p className="services-text mb-1" style={{ fontSize:'18px', color:'black' }}>Pour être éligible, votre contrat doit avoir <b style={{color:'#2b6338' }}>trois(3) mois 
                               d’ancienneté et être à jour des cotisations</b> au moment des tirages. <b style={{color:'#2b6338' }}>DOIHOO</b> vous paie immédiatement en cas de tirage au sort, un bonus de 
                               <b style={{color:'#2b6338' }}>20%</b> du capital souscrit. Si vous êtes tiré au sort, votre contrat ne prend pas fin et vous continuez de participer aux prochains tirages 
                               au sort pourvu que vous soyez à jour de vos cotisations. Au terme du contrat, en plus des bonus gagnés par tirage au sort, <b style={{color:'#2b6338' }}>DOIHOO</b> vous 
@@ -469,7 +400,7 @@ const servicesData = [
                                   </tr>
                                 </tbody>
                               </Table>
-                              <br />
+                              <br /> */}
                               <p className="services-text mb-1" style={{ fontSize:'18px', color:'#f9b233', textDecoration:'underline' }}><b>Qu’est-ce que vous gagnez avec DOIHOO ?</b></p>
                               <ol>
                                 <p><li style={{ listStyleType:'disclosure-closed', color:'#2b6338', fontSize:'18px' }}>Vous bénéficiez d’un taux de rémunération de <b>3.5%</b> garanti
@@ -495,10 +426,10 @@ const servicesData = [
       },
       {
         id:7,
-        img:'/assets/img/icon/2/cadence.png',
+        img:'/assets/img/product/placement.png',
         title:'YAKO AFRICA',
-        soustitle:'IFC',
-        desc:"Ce contrat permet à votre entreprise de disposer d’un outil puissant de gestion d’actifs et de risques..." ,
+        soustitle:'STRATEGIE IFC',
+        desc:"Gérez vos actifs et bénéficiez d'avantages fiscaux" ,
         service:'/assets/img/services/pension.jpg',
         text :<> 
               <div className="privacy-content-area">
@@ -512,15 +443,7 @@ const servicesData = [
                     <li className="nav-item" style={{padding:'0 15px'}} role="presentation">
                     <button style={{ fontSize:'30px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">YAKO AFRICA</button>
                     </li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -546,10 +469,10 @@ const servicesData = [
       },
       {
         id:8,
-        img:'/assets/img/icon/2/ifc.png',
+        img:'/assets/img/product/retraite.png',
         title:'EMPLOYEE BENEFIT-RETRAITE',
         soustitle:'Retraite',
-        desc:"Fidelisez vos employés en leur garantissant une retraite paisible avec les plans d'Epargne retraite EMPLOYEE BENEFIT...",
+        desc:"Fidelisez vos employés",
         service:'/assets/img/services/strategy.png',
         text :<>
               <div className="privacy-content-area">
@@ -563,15 +486,7 @@ const servicesData = [
                     <li className="nav-item" style={{padding:'0 15px'}} role="presentation">
                     <button style={{ fontSize:'30px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">EMPLOYEE BENEFIT-RETRAITE</button>
                     </li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -598,10 +513,10 @@ const servicesData = [
       },
       {
         id:9,
-        img:'/assets/img/icon/2/ifc.png',
+        img:'/assets/img/product/epargne.png',
         title:'EMPLOYEE BENEFIT - EPARGNE ENTREPRISES',
         soustitle:'Epargne',
-        desc:"Les Plans d'Epargne Salariaux EMPLOYEE BENEFIT permettent aux Entreprises  d'aider leurs salariés à se constituer...",
+        desc:"Aidez vos salariés à se réaliser",
         service:'/assets/img/services/strategy.png',
         text :<> 
               <div className="privacy-content-area">
@@ -615,15 +530,7 @@ const servicesData = [
                     <li className="nav-item" style={{padding:'0 15px'}} role="presentation">
                     <button style={{ fontSize:'25px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">EMPLOYEE BENEFIT- EPARGNE ENTREPRISES</button>
                     </li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
-                    <li className="nav-item" role="presentation"></li>
+                    
                   </ul>
                 </div>
               </div>
@@ -655,10 +562,10 @@ const servicesData = [
       },
       {
         id:10,
-        img:'/assets/img/icon/2/doihoo.png',
+        img:'/assets/img/product/prevoyance.png',
         title:'EMPLOYEE BENEFIT- PRÉVOYANCE ENTREPRISES',
         soustitle:'Prévoyance',
-        desc:"Le plan de PREVOYANCE ENTREPRISES est un contrat de prévoyance collective qui permet aux  entreprises...",
+        desc:"Soutenez vos employés",
         service:'/assets/img/services/obseques.png',
         text :<> 
               <div className="privacy-content-area">
@@ -672,14 +579,7 @@ const servicesData = [
                             <li className="nav-item" style={{padding:'0 15px'}} role="presentation">
                             <button style={{ fontSize:'25px'}} className="nav-link active" id="conditions-tab" data-bs-toggle="tab" data-bs-target="#conditions" type="button" role="tab" aria-controls="conditions" aria-selected="false">EMPLOYEE BENEFIT- EPARGNE ENTREPRISES</button>
                             </li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
-                            <li className="nav-item" role="presentation"></li>
+                            
                             <li className="nav-item" role="presentation"></li>
                           </ul>
                         </div>
