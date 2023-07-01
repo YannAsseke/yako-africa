@@ -428,7 +428,7 @@ const servicesData = [
         id:7,
         img:'/assets/img/product/placement.png',
         title:'YAKO AFRICA',
-        soustitle:'STRATEGIE IFC',
+        soustitle:'Stratégie IFC',
         desc:"Gérez vos actifs et bénéficiez d'avantages fiscaux" ,
         service:'/assets/img/services/pension.jpg',
         text :<> 

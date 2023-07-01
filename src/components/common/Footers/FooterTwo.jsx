@@ -18,8 +18,20 @@ const FooterTwo = () => {
                       </svg>
                     </div>
                     <div className="contact__info-text">
+                    <h4 style={{ fontWeight:"600",color:"#2b6338" }} >SIEGE</h4>
                       <p><a target="_blank" rel="noreferrer" style={{ fontWeight:"500",color:"#2b6338" }} href="https://maps.google.com/maps?ll=5.316632,-4.016711&z=15&t=m&hl=fr&gl=CI&mapclient=embed&cid=12416905615299584988">Abidjan -plateau , avenue Noguès immeuble woodin , 4em étage</a></p>
-
+                    </div>
+                  </div>
+                  <div className="contact__info-item d-flex align-items-start mb-35">
+                    <div className="contact__info-icon mr-15">
+                      <svg className="map" viewBox="0 0 24 24">
+                        <path className="st0" d="M21,10c0,7-9,13-9,13s-9-6-9-13c0-5,4-9,9-9S21,5,21,10z" />
+                        <circle className="st0" cx="12" cy="10" r="3" />
+                      </svg>
+                    </div>
+                    <div className="contact__info-text">
+                    <h4 style={{ fontWeight:"600",color:"#2b6338" }} >ESPACE CLIENTELE PARTICULIERS ET ENTREPRISES</h4>
+                      <p><a style={{ fontWeight:"500",color:"#2b6338" }}>Abidjan - Plateau, Rue de Commerce, Immeuble Pacifique en face de l'Immeuble du MALI</a></p>
                     </div>
                   </div>
                   <div className="contact__info-item d-flex align-items-start mb-35">
@@ -76,7 +88,7 @@ const FooterTwo = () => {
               </div> 
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
-                  <h5 className="footer-xs-title mb-20">NOTRE SOCIETE</h5>
+                  <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>NOTRE SOCIETE</h5>
                   <div className="footer-links mb-30">
                     <ul>
                       <li><a href="">Mot du DG</a></li>
@@ -90,7 +102,7 @@ const FooterTwo = () => {
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
-                  <h5 className="footer-xs-title mb-20">NOS PRODUITS</h5>
+                  <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>NOS PRODUITS</h5>
                   <div className="footer-links mb-30">
                     <ul>
                       
@@ -103,7 +115,7 @@ const FooterTwo = () => {
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
-                  <h5 className="footer-xs-title mb-20">RESEAU</h5>
+                  <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>RESEAU</h5>
                   <div className="footer-links mb-30">
                     <ul>
                       <li><a href="/help-center">Réseau individuel</a></li>
@@ -114,10 +126,10 @@ const FooterTwo = () => {
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-3">
                 <div className="footer__widget">
-                  <h5 className="footer-xs-title mb-20">E-SERVICES</h5>
+                  <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>E-SERVICES</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="https://www.laloyalevie.com/acceuilServices.php">E-services</a></li>
+                      <li><a href="https://yakoafricassur.com/e-services/">E-services</a></li>
                     </ul>
                   </div>
                 </div>

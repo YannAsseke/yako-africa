@@ -8,7 +8,7 @@ const VideoAreaFour = () => {
     <>
       <section id='team'>
           <h1>
-            <strong>La direction</strong>
+            <strong>Notre Organisation</strong>
           </h1>
           <div className="container">
             <div className="box">

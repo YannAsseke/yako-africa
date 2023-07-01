@@ -11,7 +11,7 @@ const PrivacyContent = () => {
                 <div className="">
                     <div className="card-body">
                     <p className="pt-30 pb-30" style={{color:'#3c3c3b', fontSize:'35px', fontWeight:"600", textAlign:"center"}}>Encore plus proche de vous grâce à notre vaste réseau de distribution couvrant <b style={{ color:"#2b6338" }}>le territoire national mais aussi la diaspora</b>.</p>
-                    <p style={{color:'#3c3c3b', fontSize:'20px'}}>Nous nous appuyons sur nos espaces clientèle particuliers et entreprises présents dans plusieurs villes de la cote d’ivoire mais aussi sur nos partenaires banques, sociétés de courtage de premier rang et institutions financières afin de desservir une grande partie de la population.</p>
+                    <p style={{color:'#3c3c3b', fontSize:'20px', lineHeight:"40px"}}>Nous nous appuyons sur nos espaces clientèle particuliers et entreprises présents dans plusieurs villes de la cote d’ivoire mais aussi sur nos partenaires banques, sociétés de courtage de premier rang et institutions financières afin de desservir une grande partie de la population.</p>
                     <div className="services-details-area pt-50">
                       
                       <div className="container">
@@ -80,7 +80,7 @@ const PrivacyContent = () => {
                                           </div>
                                           <div className="contact__info-text">
                                             <h4>ESPACE CLIENTELE PARTICULIERS ET ENTREPRISES</h4>
-                                            <p><a target="_blank" rel="noreferrer" href="">Abidjan - Plateau, Rue de Commerce, Immeuble Pacifique en face de l'Immeuble du MALI</a></p>  
+                                            <p><a>Abidjan - Plateau, Rue de Commerce, Immeuble Pacifique en face de l'Immeuble du MALI</a></p>  
                                           </div>
                                         </div>  
                                         <div className="contact__info-item d-flex align-items-start mb-35">

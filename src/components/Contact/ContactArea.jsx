@@ -12,7 +12,7 @@ const schema = Yup.object().shape({
   name: Yup.string().required("Nom & Prénoms est obligatoire"),
   number: Yup.string().required("Numéro de téléphone est obligatoire").matches(phoneRegExp, 'Numero de téléphone est invalide').min(8, "Au moins 8 chiffres"),
   email: Yup.string().email("Email invalide"),
-  prestation: Yup.string().required("Prestation est obligatoire"),
+  prestation: Yup.string().required("Objet est obligatoire"),
   message: Yup.string().required("Message est obligatoire")
 });
 
@@ -97,7 +97,7 @@ const ContactArea = () => {
                       </div>
                       <div className="col-xxl-6 col-xl-6 col-md-6">
                         <div className="contact__form-input">
-                          <input id='prestation' value={values.prestation} onChange={handleChange} type="text" placeholder="Prestation" />
+                          <input id='prestation' value={values.prestation} onChange={handleChange} type="text" placeholder="Objet" />
                           {touched.prestation && <ErrorMsg error={errors.prestation} />}
                         </div>
                       </div>

@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Particulier from "../../data/Produits";
+import Readmore from "../../ReadMore";
 
 const Assistancebrand = () => {
   return (
     <>
-    <div className="services-list-area pt-50" style={{paddingBottom:"550px", marginBottom:"400px", backgroundImage: "linear-gradient(to bottom, rgba(60, 60, 59, 0.6), #f9b233), url('/assets/img/services/assistance.jpg')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
+    <div className="services-list-area pt-50" style={{ backgroundImage: "linear-gradient(to bottom, rgba(60, 60, 59, 0.6), #f9b233), url('/assets/img/services/assistance.jpg')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }}>
       <h4 className="pb-80" style={{ textAlign: 'center', color:'white', fontSize:'50px', fontWeight:'bold' }}>Services & Assistance</h4>
-    </div>
-    <div className="row" style={{ position:"absolute", top:"50%", left:"2%", margin:"auto", width:"95%" }}>
+      <div className="row" style={{ top:"50%", left:"2%", margin:"auto", width:"95%" }}>
         <div className="wrapper-assi" style={{ margin:"auto" }}>
                 
                 <div className="card" style={{ textAlign:"center", backgroundColor:"#2b6338" }}>
@@ -31,9 +31,11 @@ const Assistancebrand = () => {
                     <p className="card-content" style={{ color:"#fff" }}>Vous avez la main.</p>
                     <a href="tel:+2252720331500" className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}><i className='fa fa-phone' style={{ paddingRight:"10px" }}></i>+(225) 27 20 33 15 00</a>
                 </div>
-      
         </div>
       </div>
+      
+    </div>
+    <Readmore />
     </>
   );
 };
