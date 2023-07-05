@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import servicesData from '../../data/servicesData';
+//import servicesData from '../../data/servicesData';
 
 const servicesItems = servicesData.slice(13, 19)
 

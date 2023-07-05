@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import servicesData from '../../data/servicesData';
+//import servicesData from '../../data/servicesData';
 
 const ServicesThree = () => {
   return (

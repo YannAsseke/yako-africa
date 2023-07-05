@@ -45,12 +45,12 @@ export default async function handler(
         
         const htmlData = Object.entries(data).reduce(
             (str, [key, val]) =>  
-                 (str += `<h1 class="form-heading" align="left">${CONTACT_MESSAGE_FIELDS[key]}</h1><p class="form-answer">${val}</p>`),
+                 (str += `<h1 className="form-heading" align="left">${CONTACT_MESSAGE_FIELDS[key]}</h1><p className="form-answer">${val}</p>`),
             ""
         );
     
         return {
-            text : stringData,
+            text : stringData, 
             html : `<!DOCTYPE html>
             <html>
               <head>
@@ -139,7 +139,7 @@ export default async function handler(
                       bgcolor="#ffffff"
                       align="center"
                       style="padding: 10px 15px 30px 15px"
-                      class="section-padding"
+                      className="section-padding"
                     >
                       <table
                         border="0"
@@ -147,7 +147,7 @@ export default async function handler(
                         cellspacing="0"
                         width="100%"
                         style="max-width: 500px"
-                        class="responsive-table"
+                        className="responsive-table"
                       >
                         <tr>
                           <td>
@@ -168,10 +168,10 @@ export default async function handler(
                                           line-height: 25px;
                                           color: #232323;
                                         "
-                                        class="padding message-content"
+                                        className="padding message-content"
                                       >
                                         <h2>Informations : </h2>
-                                        <div class="form-container">${htmlData}</div>
+                                        <div className="form-container">${htmlData}</div>
                                       </td>
                                     </tr>
                                   </table>

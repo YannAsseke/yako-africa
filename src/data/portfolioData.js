@@ -887,19 +887,19 @@ const portfolioData = [
         title:'Particulier'
       },
       {
-        id:'home-four',
+        id:'produits-particuliers',
         img:"particulier-2.png",
         col:'3',
         title:'Particuliers'
       },
       {
-        id:'home-five',
+        id:'produits-professionnels-entreprises',
         img:"professionnel.png",
         col:'1',
         title:'Professionnels & Entreprises'
       },
       {
-        id:'home-seven',
+        id:'produits-partenaires',
         img:"bancassurance.png",
         col:'3',
         title:'Partenaires'

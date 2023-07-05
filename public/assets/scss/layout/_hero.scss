@@ -996,7 +996,7 @@
     -webkit-text-stroke: 1.2px var(--tp-heading-primary);
 	-webkit-background-clip: text;
 	color: transparent;
-    background-image: url('../../img/bg/text-bg.jpg');
+    // background-image: url('../../img/bg/text-bg.jpg');
     background-size: cover;
     @media #{$xl} {
         font-size: 105px;

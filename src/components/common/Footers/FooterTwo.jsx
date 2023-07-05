@@ -92,10 +92,10 @@ const FooterTwo = () => {
                   <div className="footer-links mb-30">
                     <ul>
                       <li><a href="">Mot du DG</a></li>
-                      <li><a href="/about">Qui sommes nous?</a></li>
+                      <li><a href="/qui-sommes-nous">Qui sommes nous?</a></li>
                       <li><a href="">Notre métier</a></li>
-                      <li><a href="/portfolio-three">Partenariats</a></li>
-                      <li><a href="/about">Notre Organisation</a></li>
+                      <li><a href="/produits-partenaires">Partenariats</a></li>
+                      <li><a href="/qui-sommes-nous">Notre Organisation</a></li>
                     </ul>
                   </div>
                 </div>
@@ -106,9 +106,9 @@ const FooterTwo = () => {
                   <div className="footer-links mb-30">
                     <ul>
                       
-                      <li><a href="/home-four">Particuliers</a></li>
-                      <li><a href="/home-five">Professionnels & Entreprises</a></li>
-                      <li><a href="/portfolio-three">Partenaires</a></li>
+                      <li><a href="/produits-particuliers">Particuliers</a></li>
+                      <li><a href="/produits-professionnels-entreprises">Professionnels & Entreprises</a></li>
+                      <li><a href="/produits-partenaires">Partenaires</a></li>
                     </ul>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const FooterTwo = () => {
                   <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>RESEAU</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="/help-center">Réseau individuel</a></li>
+                      <li><a href="/notre-reseau">Réseau individuel</a></li>
                       <li><a href="">Courtage</a></li>
                     </ul>
                   </div>

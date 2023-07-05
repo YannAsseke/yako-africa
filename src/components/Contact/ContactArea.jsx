@@ -22,7 +22,7 @@ const ContactArea = () => {
       title: "Success!",
       text: "Vos informations ont été bien enregistrées! Vous serez recontacté.",
       icon: "success",
-      timer: 2000,
+      timer: 5000,
       timerProgressBar: true,
       showConfirmButton: false,
     });
@@ -41,7 +41,7 @@ const ContactArea = () => {
     validationSchema: schema,
 
     // Handle form submission
-    onSubmit: async ({ name, number, email, prestation, message }) => {
+  onSubmit: async ({ name, number, email, prestation, message }) => {
       const data = {
         Name:name,
         Number:number,
@@ -50,11 +50,11 @@ const ContactArea = () => {
         Message:message,
       }
   
-      axios.post("/api/submit", data).then((response)=>{
+    await  axios.post("/api/submit", data).then((response)=>{
         console.log(response);
         formik.resetForm();
-        alertContent();
       }).catch((err) =>console.log(err))
+      alertContent();
       console.log(data);
     },
   });

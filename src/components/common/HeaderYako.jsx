@@ -44,31 +44,31 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/about">Qui sommes nous</Link>
+                          <Link href="/qui-sommes-nous">Qui sommes nous</Link>
                         </li>
                         <li>
-                          <Link href="/help-center">Réseau </Link>
+                          <Link href="/notre-reseau">Réseau </Link>
                         </li>
                         <li className="has-dropdown">
                           <Link href="">
                              <a>Nos produits</a>
                           </Link>
                           <ul className="submenu">
-                          <li><Link href="/home-four">Particuliers</Link></li>
-                          <li><Link href="/home-five">Professionnels & Entreprises</Link></li>
-                            <li><Link href="/portfolio-three">Partenaires</Link></li>
+                          <li><Link href="/produits-particuliers">Particuliers</Link></li>
+                          <li><Link href="/produits-professionnels-entreprises">Professionnels & Entreprises</Link></li>
+                            <li><Link href="/produits-partenaires">Partenaires</Link></li>
                           </ul>
                         </li>
                         <li>
-                          <Link href="/portfolio-three">Partenaires </Link>
+                          <Link href="/produits-partenaires">Partenaires </Link>
                         </li>
                         <li style={{ color:"#f9b233" }}>
                             <Link href="https://yakoafricassur.com/e-services/">E-SERVICES</Link>
                         </li>    
                         <li>
-                          <Link href="/privacy-policy">Actualités </Link>
+                          <Link href="/actualites">Actualités </Link>
                         </li>
-                        <button class="btn-assi draw-border" ><a href="/assistance">ASSISTANCE</a></button>
+                        <a href="/assistance"><button className="btn-assi draw-border" >ASSISTANCE</button></a>
                         {/* <li>
                           <Link href="/about">Contacts </Link>
                         </li> */}

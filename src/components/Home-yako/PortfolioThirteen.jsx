@@ -19,14 +19,16 @@ const PortfolioThirteen = () => {
                   return (
                     <div key={item.id} className="col-sm-4 boxOne" style={{ background: "url(/assets/img/project/5/"+item.img+") no-repeat scroll 0 0 transparent", backgroundPosition:"center"}} >
                       <div className="BlocBandeauText">
-                        <div className="BlocText">
-                          <h1>
-                            <a href={`/${item.id}`} style={{ fontSize:"20px", fontWeight:"bold" }}>{item.title}</a>
-                          </h1>
-                        </div>
-                        <div className="ButtonText">
-                          <a href="https://laloyalevie.com/espace-client/login.php" target="_blank">ACCÈS À VOS COMPTES</a>
-                        </div>
+                        
+                            <a href={`/${item.id}`} style={{ fontSize:"20px", fontWeight:"bold" }}>
+                              <div className="BlocText">
+                                  {item.title}
+                              </div>
+                            </a>
+                          
+                        
+                          <a href="https://laloyalevie.com/espace-client/login.php" target="_blank"><div className="ButtonText">ACCÈS À VOS COMPTES</div></a>
+                        
                       </div>
                     </div>
                   )
@@ -39,11 +41,11 @@ const PortfolioThirteen = () => {
             <div className='clearBoxFour' style={{ padding:"0" }}>
               <div className="col-sm-12 boxFour">
                 <div className="BlocBandeauTextFour">
-                  <div className="BlocText">
-                  <p style={{ lineHeight:"20px", margin:"auto" }}>
-                    <a href="/about" style={{ fontSize:"20px", fontWeight:"bold" }}>Connaître Yako Africa</a>
-                  </p>
-                  </div>
+                  <a href="/qui-sommes-nous" style={{ fontSize:"20px", fontWeight:"bold" }}>
+                    <div className="BlocText">
+                    Connaître Yako Africa
+                    </div>
+                  </a>
                 </div>
                 {/* <div className="tppg-project__content">
                   <span className="tppg-project-tag mb-10">YAKO</span>

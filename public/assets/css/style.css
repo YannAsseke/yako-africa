@@ -887,3 +887,14 @@ body{
   max-height: 20rem;
   margin-top: 10px;
 }
+
+.sidebar-toggle-btn{
+  display: none !important;
+}
+
+@media (max-width: 992px) {
+  .sidebar-toggle-btn{
+    display: block !important;
+  }
+}
+

@@ -112,7 +112,7 @@ const Sidebar = ({ headerMenu }) => {
                   <div className="single_link iconAdd">
                     <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACTUALITÉS</a></Link></li>
                   </div>
-                  <button class="btn-assi draw-border" style={{ marginTop:"10px" }}><a href="/assistance">ASSISTANCE</a></button>
+                  <button className="btn-assi draw-border" style={{ marginTop:"10px" }}><a href="/assistance">ASSISTANCE</a></button>
                   
                   {/* <div className="single_link iconAdd">
                     <li><Link href="/"><a>ACTUALITÉS</a></Link></li>
@@ -228,7 +228,7 @@ const Sidebar = ({ headerMenu }) => {
             <div className={`sidebar__text ${headerMenu ? 'd-none' : 'd-none d-lg-block'}`}>
               <p>YAKO AFRICA ASSURANCES VIE COTE D&apos;IVOIRE est une compagnie d&apos;Assurance créée le 1er avril 2003. Elle est agréée par le Ministère de l&apos;Économie et des Finances, sous le numéro 040/MEFP/CAB après avis favorable de la Commission Régionale de Contrôle des Assurances (CRCA) et de la Conférence Interafricaine des Marchés d&apos;Assurance (CIMA).</p>
             </div>
-            <div className={`sidebar__img ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-20`}>
+            {/* <div className={`sidebar__img ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-20`}>
               <div className="row gx-2">
                 {galleryImages.map((image, index) => (
                   <div key={image.id} className="col-4">
@@ -247,7 +247,7 @@ const Sidebar = ({ headerMenu }) => {
             </div>
             <div className={`sidebar__map ${headerMenu ? 'd-none' : 'd-none d-lg-block'} mb-15`}>
               <iframe src="https://www.google.com/maps/place/YAKO+AFRICA+ASSURANCES+VIE/@5.317113,-4.016411,16z/data=!4m6!3m5!1s0xfc1ebc7998923c3:0xac51b5de997c23dc!8m2!3d5.3171132!4d-4.0164107!16s%2Fg%2F11c20stfyv?hl=fr"></iframe>
-            </div>
+            </div> */}
             <div className="sidebar__contact mt-30 mb-20">
               {/* <h4>Contact Info</h4> */}
               <ul>

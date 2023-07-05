@@ -2,7 +2,7 @@ import { Table } from 'react-bootstrap';
 
 const servicesData = [
       {
-        id:1,
+        id:"prevoyance",
         img:'/assets/img/product/prevoyance.png',
         title:'Prévoyance',
         desc:'',
@@ -59,7 +59,7 @@ const servicesData = [
               </>
       },
       {
-        id:2,
+        id:"retraite",
         img:'/assets/img/product/retraite.png',
         title:'Retraite',
         desc:'Planifiez votre retraite en toute sérénité',
@@ -101,7 +101,7 @@ const servicesData = [
           </>
       },
       {
-        id:3,
+        id:"obsèques",
         img:'/assets/img/product/obsèque.png',
         title:'Obsèques',
         desc:'Accompagnez vos proches sereinement',
@@ -174,7 +174,7 @@ const servicesData = [
               </>
       },
       {
-        id:4,
+        id:"epargne",
         img:'/assets/img/product/epargne.png',
         title:'Epargne',
         desc:'Sécurisez votre avenir',
@@ -253,7 +253,7 @@ const servicesData = [
           </>
       },
       {
-        id:5,
+        id:"education",
         img:'/assets/img/product/education.png',
         title:'Education',
         desc:"Assurez l'avenir de vos enfants",
@@ -315,7 +315,7 @@ const servicesData = [
           </>
       },
       {
-        id:6,
+        id:"placement",
         img:'/assets/img/product/placement.png',
         title:'Placement',
         desc:"Gagnez plus d'argent",
@@ -425,7 +425,7 @@ const servicesData = [
           </>
       },
       {
-        id:7,
+        id:"ifc",
         img:'/assets/img/product/placement.png',
         title:'YAKO AFRICA',
         soustitle:'Stratégie IFC',
@@ -468,7 +468,7 @@ const servicesData = [
           </>
       },
       {
-        id:8,
+        id:"retraite",
         img:'/assets/img/product/retraite.png',
         title:'EMPLOYEE BENEFIT-RETRAITE',
         soustitle:'Retraite',
@@ -512,7 +512,7 @@ const servicesData = [
           </>
       },
       {
-        id:9,
+        id:"epargne",
         img:'/assets/img/product/epargne.png',
         title:'EMPLOYEE BENEFIT - EPARGNE ENTREPRISES',
         soustitle:'Epargne',
@@ -561,7 +561,7 @@ const servicesData = [
           </>
       },
       {
-        id:10,
+        id:"prevoyance",
         img:'/assets/img/product/prevoyance.png',
         title:'EMPLOYEE BENEFIT- PRÉVOYANCE ENTREPRISES',
         soustitle:'Prévoyance',
