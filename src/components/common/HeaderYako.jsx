@@ -68,7 +68,7 @@ const HeaderYako = ({ HeaderTwo, headerEight = false,homeNine}) => {
                         <li>
                           <Link href="/actualites">Actualités </Link>
                         </li>
-                        <a href="/assistance"><button className="btn-assi draw-border" >ASSISTANCE</button></a>
+                        <Link href="/assistance"><button className="btn-assi draw-border" >ASSISTANCE</button></Link>
                         {/* <li>
                           <Link href="/about">Contacts </Link>
                         </li> */}
