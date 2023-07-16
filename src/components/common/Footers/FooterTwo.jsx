@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const FooterTwo = () => {
   return (
@@ -31,7 +32,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="contact__info-text">
                     <h4 style={{ fontWeight:"600",color:"#2b6338" }} >ESPACE CLIENTELE PARTICULIERS ET ENTREPRISES</h4>
-                      <p><a style={{ fontWeight:"500",color:"#2b6338" }}>Abidjan - Plateau, Rue de Commerce, Immeuble Pacifique en face de l'Immeuble du MALI</a></p>
+                      <p><a style={{ fontWeight:"500",color:"#2b6338" }}>Abidjan - Plateau, Rue de Commerce, Immeuble Pacifique en face de l&apos;Immeuble du MALI</a></p>
                     </div>
                   </div>
                   <div className="contact__info-item d-flex align-items-start mb-35">
@@ -42,7 +43,7 @@ const FooterTwo = () => {
                       </svg>
                     </div>
                     <div className="contact__info-text">
-                      <p><a href="mailto:infos@yakoafricassur.com" style={{ fontWeight:"500", color:"#2b6338" }}>infos@yakoafricassur.com</a></p>
+                      <p><Link href="mailto:infos@yakoafricassur.com" target="_blank" rel="noreferrer"><a style={{ fontWeight:"500", color:"#2b6338" }}>infos@yakoafricassur.com</a></Link></p>
                     </div>
                   </div>
                   <div className="contact__info-item d-flex align-items-start mb-35">
@@ -58,25 +59,25 @@ const FooterTwo = () => {
                   <div className="contact__social pl-30">
                     <h4 style={{ color:"#2b6338" }}>Nous suivre</h4>
                     <ul>
-                      <li><a href="https://www.facebook.com/YakoAfrica.SA/" target="_blank" className="fb" ><i className="fa-brands fa-facebook-f"></i></a></li>
-                      {/* <li><a href="#" target="_blank" className="tw" ><i className="fa-brands fa-twitter"></i></a></li> */}
-                      <li><a href="https://www.linkedin.com/company/laloyalevie/" target="_blank" className="pin" ><i className="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><Link href="https://www.facebook.com/YakoAfrica.SA/" target="_blank" className="fb" ><a><i className="fa-brands fa-facebook-f"></i></a></Link></li>
+                      {/* <li><Link href="#" target="_blank" className="tw" ><i className="fa-brands fa-twitter"></i></Link></li> */}
+                      <li><Link href="https://www.linkedin.com/company/laloyalevie/" target="_blank" className="pin" ><a><i className="fa-brands fa-linkedin-in"></i></a></Link></li>
                     </ul>
                   </div>
                 </div>
                {/* <div className="footer__widget">
                 <img src="/assets/img/logo/logo.png" alt="logo" />
-                <span className="footer-sp-contact"><a href="https://maps.google.com/maps?ll=5.316632,-4.016711&z=15&t=m&hl=fr&gl=CI&mapclient=embed&cid=12416905615299584988">Abidjan -plateau , avenue Noguès immeuble woodin , 4em étage</a></span>
+                <span className="footer-sp-contact"><Link href="https://maps.google.com/maps?ll=5.316632,-4.016711&z=15&t=m&hl=fr&gl=CI&mapclient=embed&cid=12416905615299584988">Abidjan -plateau , avenue Noguès immeuble woodin , 4em étage</Link></span>
                 <p></p>
-                  <h4 className="footer-sp-title mb-15"><i className="fa-solid fa-comment"></i> <a href="tel:+2252720331500">2720331500</a></h4>
+                  <h4 className="footer-sp-title mb-15"><i className="fa-solid fa-comment"></i> <Link href="tel:+2252720331500">2720331500</Link></h4>
                   <p></p>
-                  <span className="footer-sp-contact"><a href="mailto:infos@yakoafricassur.com">infos@yakoafricassur.com</a></span>
+                  <span className="footer-sp-contact"><Link href="mailto:infos@yakoafricassur.com">infos@yakoafricassur.com</Link></span>
                   <div className="contact__social pl-30">
                     <h4>Follow Us</h4>
                     <ul>
-                      <li><a href="#" className="fb" ><i className="fa-brands fa-facebook-f"></i></a></li>
-                      <li><a href="#" className="tw" ><i className="fa-brands fa-twitter"></i></a></li>
-                      <li><a href="#" className="pin" ><i className="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><Link href="#" className="fb" ><i className="fa-brands fa-facebook-f"></i></Link></li>
+                      <li><Link href="#" className="tw" ><i className="fa-brands fa-twitter"></i></Link></li>
+                      <li><Link href="#" className="pin" ><i className="fa-brands fa-linkedin-in"></i></Link></li>
                     </ul>
                   </div>
                   <p></p>
@@ -91,11 +92,11 @@ const FooterTwo = () => {
                   <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>NOTRE SOCIETE</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="">Mot du DG</a></li>
-                      <li><a href="/qui-sommes-nous">Qui sommes nous?</a></li>
-                      <li><a href="">Notre métier</a></li>
-                      <li><a href="/produits-partenaires">Partenariats</a></li>
-                      <li><a href="/qui-sommes-nous">Notre Organisation</a></li>
+                      <li><Link href=""><a>Mot du DG</a></Link></li>
+                      <li><Link href="/qui-sommes-nous"><a>Qui sommes nous?</a></Link></li>
+                      <li><Link href=""><a>Notre métier</a></Link></li>
+                      <li><Link href="/produits-partenaires"><a>Partenariats</a></Link></li>
+                      <li><Link href="/qui-sommes-nous"><a>Notre Organisation</a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -106,9 +107,9 @@ const FooterTwo = () => {
                   <div className="footer-links mb-30">
                     <ul>
                       
-                      <li><a href="/produits-particuliers">Particuliers</a></li>
-                      <li><a href="/produits-professionnels-entreprises">Professionnels & Entreprises</a></li>
-                      <li><a href="/produits-partenaires">Partenaires</a></li>
+                      <li><Link href="/produits-particuliers"><a>Particuliers</a></Link></li>
+                      <li><Link href="/produits-professionnels-entreprises"><a>Professionnels & Entreprises</a></Link></li>
+                      <li><Link href="/produits-partenaires"><a>Partenaires</a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -118,8 +119,8 @@ const FooterTwo = () => {
                   <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>RESEAU</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="/notre-reseau">Réseau individuel</a></li>
-                      <li><a href="">Courtage</a></li>
+                      <li><Link href="/notre-reseau"><a>Réseau individuel</a></Link></li>
+                      <li><Link href=""><a>Courtage</a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -129,7 +130,7 @@ const FooterTwo = () => {
                   <h5 className="footer-xs-title mb-20" style={{ fontWeight:"600" }}>E-SERVICES</h5>
                   <div className="footer-links mb-30">
                     <ul>
-                      <li><a href="https://yakoafricassur.com/e-services/">E-services</a></li>
+                      <li><Link href="https://yakoafricassur.com/e-services/"><a>E-services</a></Link></li>
                     </ul>
                   </div>
                 </div>

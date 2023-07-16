@@ -67,9 +67,12 @@ const Sidebar = ({ headerMenu }) => {
           </div>
           <div className="sidebar__content">
             <div className="sidebar__logo mb-40">
-              <a href="index.html">
-                <img src="/assets/img/logo/logo.png" alt="logo" style={{ maxWidth:"100px" }} />
-              </a>
+              <Link href="/" onClick={() => setShowSidebar(false)}>
+                <a >
+                  <img src="/assets/img/logo/logo.png" alt="logo" style={{ maxWidth:"100px" }} />
+                </a>
+              </Link>
+              
             </div>
             {/* 
             <div className="sidebar__search mb-25">
@@ -85,34 +88,33 @@ const Sidebar = ({ headerMenu }) => {
                 <ul>
 
                 <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACCUEIL</a></Link></li>
+                    <Link href="/" ><li onClick={() => setShowSidebar(false)}><a>ACCUEIL</a></li></Link>
                   </div>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/about"><a>QUI SOMMES NOUS</a></Link></li>
+                  <Link href="/qui-sommes-nous" ><li onClick={() => setShowSidebar(false)}><a>QUI SOMMES NOUS</a></li></Link>
                   </div>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/help-center">RESEAU</Link></li>
+                  <Link href="/notre-reseau" ><li onClick={() => setShowSidebar(false)}>RESEAU</li></Link>
                   </div>
                   <Collapsible trigger={<a>NOS PRODUITS</a>} triggerTagName="div"
                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                     <ul onClick={() => setShowSidebar(false)}
                       className="sidebar_sub_menu submenu text-black" >
-                      <li><Link href="/home-four">Particuliers</Link></li>
-                      <li><Link href="/home-five">Profesionnels</Link></li>
-                      <li><Link href="/home-six">Entreprises</Link></li>
-                      <li><Link href="/portfolio-three">Partenaires</Link></li>
+                      <Link href="/produits-particuliers"><li>Particuliers</li></Link>
+                      <Link href="/produits-professionnels-entreprises"><li>Profesionnels & Entreprises</li></Link>
+                      <Link href="/produits-partenaires"><li>Partenaires</li></Link>
                     </ul>
                   </Collapsible>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/portfolio-three"><a>PARTENAIRES</a></Link></li>
+                  <Link href="/produits-partenaires"><li onClick={() => setShowSidebar(false)}><a>PARTENAIRES</a></li></Link>
                   </div>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="https://www.laloyalevie.com/acceuilServices.php"><a>E-SERVICES</a></Link></li>
+                  <Link href="https://yakoafricassur.com/e-services/"><li onClick={() => setShowSidebar(false)}><a>E-SERVICES</a></li></Link>
                   </div>
                   <div className="single_link iconAdd">
-                    <li onClick={() => setShowSidebar(false)}><Link href="/"><a>ACTUALITÉS</a></Link></li>
+                  <Link href="/actualites" ><li onClick={() => setShowSidebar(false)}><a>ACTUALITÉS</a></li></Link>
                   </div>
-                  <button className="btn-assi draw-border" style={{ marginTop:"10px" }}><a href="/assistance">ASSISTANCE</a></button>
+                  <Link href="/assistance" ><button onClick={() => setShowSidebar(false)}  className="btn-assi draw-border" style={{ marginTop:"10px" }}><a>ASSISTANCE</a></button></Link>
                   
                   {/* <div className="single_link iconAdd">
                     <li><Link href="/"><a>ACTUALITÉS</a></Link></li>
@@ -256,7 +258,7 @@ const Sidebar = ({ headerMenu }) => {
                     <i className="fal fa-map-marker-alt"></i>
                   </div>
                   <div className="sidebar__contact-text">
-                    <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/YAKO+AFRICA+ASSURANCES+VIE/@5.317113,-4.016411,16z/data=!4m6!3m5!1s0xfc1ebc7998923c3:0xac51b5de997c23dc!8m2!3d5.3171132!4d-4.0164107!16s%2Fg%2F11c20stfyv?hl=fr">Abidjan -plateau , avenue Noguès immeuble woodin , 4em étage</a>
+                    <a target="_blank" rel="noreferrer" onClick={() => setShowSidebar(false)} href="https://www.google.com/maps/place/YAKO+AFRICA+ASSURANCES+VIE/@5.317113,-4.016411,16z/data=!4m6!3m5!1s0xfc1ebc7998923c3:0xac51b5de997c23dc!8m2!3d5.3171132!4d-4.0164107!16s%2Fg%2F11c20stfyv?hl=fr">Abidjan -plateau , avenue Noguès immeuble woodin , 4em étage</a>
                   </div>
                 </li>
                 <li className="d-flex align-items-center">
@@ -279,8 +281,8 @@ const Sidebar = ({ headerMenu }) => {
             </div>
             <div className="sidebar__social">
               <ul>
-                <li><a href="https://www.facebook.com/YakoAfrica.SA/" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/laloyalevie/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+                <li><Link href="https://www.facebook.com/YakoAfrica.SA/" target="_blank"><a ><i className="fab fa-facebook-f"></i></a></Link></li>
+                <li><Link href="https://www.linkedin.com/company/laloyalevie/" target="_blank"><a><i className="fab fa-linkedin"></i></a></Link></li>
               </ul>
             </div>
           </div>

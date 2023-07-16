@@ -17,7 +17,7 @@ const ServicesList = () => {
                   <h3 className="card-title"><a href={`/produits-details/${item.id}`} style={{ color:"#fff" }}>{item.title}</a></h3>
                     <p className="card-content" style={{ backgroundColor:"#fff",width:"100px", height:"90px", borderRadius:"50px", margin:"auto" }}><img style={{ fontSize:"50px",width:"100px", padding:"10px" }} src={item.img} alt="services-sm-img" /></p>
                     <p className="card-content" style={{ padding:"20px 0", margin:"auto", fontSize: "18px", color:"#fff" }}>{item.desc}</p>
-                    <a href={`/produits-details/${item.id}`} className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}>En savoir plus</a>
+                    <Link href={`/produits-details/${item.id}`}  ><a className="card-btn" style={{ margin: "auto", textAlign:"center", padding: "10px 1px", fontSize: "18px", width: "80%", backgroundColor:"#fff" }}>En savoir plus</a></Link>
                 </div>
                 
                 

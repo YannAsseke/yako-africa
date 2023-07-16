@@ -195,18 +195,18 @@ const PrivacyContent = () => {
             <div className="lp__col lp__col-img" style={{backgroundImage:'url(/assets/img/modal/miss-ci.jpg)', backgroundSize:'cover',backgroundPosition:'top center',backgroundRepeat:'no-repeat'}}></div>
             <div className="lp__col lp__col-txt">
               <h1 className="lp__col__h1"><b>YAKO AFRICA Assurances vie</b> <span >SPONSOR OFFICEL DE MISS CI 2023</span></h1>
-              <p className="lp__col_bottomP">Chez Yako Africa Assurances vie, nous croyons en l'importance de soutenir les talents émergents et de créer des opportunités pour les jeunes femmes de briller.</p>
-              <p className="lp__col_bottomP">En investissant dans leur succès, nous souhaitons encourager la prise de risques, la créativité et l'ambition.</p>
-              <p className="lp__col_bottomP">Nous sommes fiers de contribuer à la réalisation des rêves et des aspirations de ces femmes exceptionnelles en renouvelant chaque année notre soutient au concours Miss Côte d'Ivoire.</p>
-              <p className="lp__col_bottomP">Ensemble, nous pouvons faire une différence significative dans la vie de ces jeunes femmes et inspirer d'autres à poursuivre leurs propres rêves.</p>
+              <p className="lp__col_bottomP">Chez Yako Africa Assurances vie, nous croyons en l&apos;importance de soutenir les talents émergents et de créer des opportunités pour les jeunes femmes de briller.</p>
+              <p className="lp__col_bottomP">En investissant dans leur succès, nous souhaitons encourager la prise de risques, la créativité et l&apos;ambition.</p>
+              <p className="lp__col_bottomP">Nous sommes fiers de contribuer à la réalisation des rêves et des aspirations de ces femmes exceptionnelles en renouvelant chaque année notre soutient au concours Miss Côte d&apos;Ivoire.</p>
+              <p className="lp__col_bottomP">Ensemble, nous pouvons faire une différence significative dans la vie de ces jeunes femmes et inspirer d&apos;autres à poursuivre leurs propres rêves.</p>
             
             </div>
           </div>
         </div>
     </div>
     <div className="item">
-      <a className="image-wrapper" href="#"><img src="/assets/img/modal/sory_diomande.webp" /></a>
-        <div className="content"><a href="#">
+      <a className="image-wrapper" href="http://africabusinessmag.com/wp/2022/06/09/le-marche-africain-des-assurances-est-lun-des-plus-dynamiques-au-monde-dixit-sory-diomande-directeur-pour-lafrique-du-nord-de-lest-et-de-louest-a-swiss-re/"><img src="/assets/img/modal/sory_diomande.webp" /></a>
+        <div className="content"><a href="http://africabusinessmag.com/wp/2022/06/09/le-marche-africain-des-assurances-est-lun-des-plus-dynamiques-au-monde-dixit-sory-diomande-directeur-pour-lafrique-du-nord-de-lest-et-de-louest-a-swiss-re/">
                 <h5 className="title">Le marché africain des assurances, un des plus dynamiques au monde selon Sory DIOMANDE</h5>
             </a>
             <a href="http://africabusinessmag.com/wp/2022/06/09/le-marche-africain-des-assurances-est-lun-des-plus-dynamiques-au-monde-dixit-sory-diomande-directeur-pour-lafrique-du-nord-de-lest-et-de-louest-a-swiss-re/">En savoir plus</a>

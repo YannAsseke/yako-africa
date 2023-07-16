@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
 import HomeYakoMain from '../components/Home-yako';

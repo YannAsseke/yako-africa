@@ -18,15 +18,16 @@ const PortfolioThirteen = () => {
                 portfolioItemBig.map(item => {
                   return (
                     <div key={item.id} className="col-sm-4 boxOne" style={{ background: "url(/assets/img/project/5/"+item.img+") no-repeat scroll 0 0 transparent", backgroundPosition:"center"}} >
+                      
                       <div className="BlocBandeauText">
-                        
-                            <a href={`/${item.id}`} style={{ fontSize:"20px", fontWeight:"bold" }}>
+                        <Link href={`/${item.id}`}>
+                            <a  style={{ fontSize:"20px", fontWeight:"bold" }}>
                               <div className="BlocText">
                                   {item.title}
                               </div>
                             </a>
                           
-                        
+                        </Link>
                           <a href="https://laloyalevie.com/espace-client/login.php" target="_blank"><div className="ButtonText">ACCÈS À VOS COMPTES</div></a>
                         
                       </div>
@@ -41,11 +42,14 @@ const PortfolioThirteen = () => {
             <div className='clearBoxFour' style={{ padding:"0" }}>
               <div className="col-sm-12 boxFour">
                 <div className="BlocBandeauTextFour">
-                  <a href="/qui-sommes-nous" style={{ fontSize:"20px", fontWeight:"bold" }}>
-                    <div className="BlocText">
-                    Connaître Yako Africa
-                    </div>
-                  </a>
+                  <Link href="/qui-sommes-nous">
+                    <a style={{ fontSize:"20px", fontWeight:"bold" }}>
+                      <div className="BlocText">
+                      Connaître Yako Africa
+                      </div>
+                    </a>
+                  </Link>
+                  
                 </div>
                 {/* <div className="tppg-project__content">
                   <span className="tppg-project-tag mb-10">YAKO</span>
